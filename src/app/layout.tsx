@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Noto_Serif_KR } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -41,11 +40,11 @@ export default function RootLayout({
   return (
     <html lang="ko" className={`${notoSerifKr.variable} h-full`}>
       <head>
-        <Script
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758936086172142"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body className="min-h-full flex flex-col">
