@@ -11,6 +11,8 @@ const notoSerifKr = Noto_Serif_KR({
   variable: "--font-noto-serif",
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://korean-astrology-guide.pages.dev";
+
 export const metadata: Metadata = {
   title: {
     default: "운세 참고서",
@@ -19,10 +21,15 @@ export const metadata: Metadata = {
   description:
     "명리학·별자리·타로·꿈해몽을 교육적으로 해설하는 정보성 콘텐츠 사이트입니다.",
   keywords: ["운세", "사주", "명리학", "별자리", "타로", "꿈해몽", "궁합"],
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     siteName: "운세 참고서",
     locale: "ko_KR",
     type: "website",
+    url: SITE_URL,
   },
 };
 
