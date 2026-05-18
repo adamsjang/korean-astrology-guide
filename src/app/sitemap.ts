@@ -4,7 +4,7 @@ export const dynamic = "force-static";
 import { getAllPosts } from "@/lib/mdx";
 import { ALL_CATEGORY_SLUGS } from "@/lib/categories";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://unsechamgoseo.pages.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://korean-astrology-guide.pages.dev";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();

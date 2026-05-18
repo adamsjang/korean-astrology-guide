@@ -14,10 +14,10 @@ export default function ContactPage() {
         <p>
           <strong>이메일:</strong>{" "}
           <a
-            href="mailto:contact@unsechamgoseo.pages.dev"
+            href="mailto:contact@korean-astrology-guide.pages.dev"
             className="text-(--color-accent)"
           >
-            contact@unsechamgoseo.pages.dev
+            contact@korean-astrology-guide.pages.dev
           </a>
         </p>
         <p className="text-sm text-(--color-secondary)">
