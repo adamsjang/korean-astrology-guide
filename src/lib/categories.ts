@@ -60,6 +60,12 @@ export const CATEGORIES: Record<string, Category> = {
     description: "명리학으로 보는 관계 이야기",
     color: "#7A3D2A",
   },
+  "zodiac-animal": {
+    slug: "zodiac-animal",
+    title: "띠별 운세",
+    description: "십이지 띠의 성격과 관계 성향",
+    color: "#8B4513",
+  },
 };
 
 export function getCategory(slug: string): Category | undefined {
