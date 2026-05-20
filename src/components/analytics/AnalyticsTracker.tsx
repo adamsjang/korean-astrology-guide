@@ -55,11 +55,59 @@ export default function AnalyticsTracker() {
       }
     };
 
+    const seenAds = new WeakSet<Element>();
+    const adIo = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.intersectionRatio < 0.5) continue;
+          const el = entry.target as HTMLElement;
+          if (el.dataset.adsbygoogleStatus !== "done") continue;
+          if (seenAds.has(el)) continue;
+          seenAds.add(el);
+
+          const allAds = Array.from(document.querySelectorAll("ins.adsbygoogle"));
+          const slotIndex = allAds.indexOf(el) + 1;
+
+          const doc = document.documentElement;
+          const full = doc.scrollHeight - window.innerHeight;
+          const depthPct = full > 0 ? Math.min(100, Math.round((window.scrollY / full) * 100)) : 0;
+
+          posthog.capture("ad_slot_viewed", {
+            slot_index: slotIndex,
+            path: url,
+            scroll_depth_when_viewed: depthPct,
+          });
+
+          adIo.unobserve(el);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    const observeAd = (node: Element) => {
+      if (!(node instanceof HTMLElement)) return;
+      if (node.matches("ins.adsbygoogle")) adIo.observe(node);
+      node.querySelectorAll?.("ins.adsbygoogle").forEach((el) => adIo.observe(el));
+    };
+
+    document.querySelectorAll("ins.adsbygoogle").forEach((el) => adIo.observe(el));
+
+    const adMo = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        for (const node of m.addedNodes) {
+          if (node instanceof Element) observeAd(node);
+        }
+      }
+    });
+    adMo.observe(document.body, { childList: true, subtree: true });
+
     window.addEventListener("scroll", onScroll, { passive: true });
     document.addEventListener("click", onClick, { capture: true });
     return () => {
       window.removeEventListener("scroll", onScroll);
       document.removeEventListener("click", onClick, { capture: true } as EventListenerOptions);
+      adIo.disconnect();
+      adMo.disconnect();
     };
   }, [pathname, searchParams]);
 
