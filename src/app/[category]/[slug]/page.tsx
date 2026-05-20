@@ -5,6 +5,7 @@ import DisclaimerBanner from "@/components/article/DisclaimerBanner";
 import RelatedPosts from "@/components/article/RelatedPosts";
 import RelatedTools from "@/components/article/RelatedTools";
 import PrevNextNav from "@/components/article/PrevNextNav";
+import ShareButton from "@/components/article/ShareButton";
 import JsonLd from "@/components/seo/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -91,10 +92,13 @@ export default async function ArticlePage({ params }: Props) {
           <p className="text-lg text-(--color-secondary) leading-relaxed mb-4">
             {post.description}
           </p>
-          <div className="flex items-center gap-3 text-sm text-(--color-secondary)">
-            <time>{post.publishedAt}</time>
-            <span>·</span>
-            <span>{post.readingTime} 읽기</span>
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3 text-sm text-(--color-secondary)">
+              <time>{post.publishedAt}</time>
+              <span>·</span>
+              <span>{post.readingTime} 읽기</span>
+            </div>
+            <ShareButton />
           </div>
         </header>
 
