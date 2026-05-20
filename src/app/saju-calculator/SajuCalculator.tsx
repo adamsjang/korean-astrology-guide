@@ -12,6 +12,7 @@ import DateInput from "@/components/saju/DateInput";
 import PillarCard from "@/components/saju/PillarCard";
 import ElementChart from "@/components/saju/ElementChart";
 import DaeunTable from "@/components/saju/DaeunTable";
+import SaeunTable from "@/components/saju/SaeunTable";
 
 const DEFAULT_INPUT: SajuInput = {
   year: 1990,
@@ -176,6 +177,8 @@ export default function SajuCalculator() {
           {daeunResult && (
             <DaeunTable daeun={daeunResult} birthYear={result.solarDate.year} />
           )}
+
+          <SaeunTable dayStemIdx={result.day.stemIdx} />
 
           <div className="rounded-xl border border-(--color-border) bg-(--color-surface) overflow-hidden">
             <button
