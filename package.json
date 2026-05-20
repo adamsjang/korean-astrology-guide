@@ -16,6 +16,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@types/mdx": "^2.0.13",
     "gray-matter": "^4.0.3",
+    "korean-lunar-calendar": "^0.3.6",
     "next": "16.2.6",
     "posthog-js": "^1.374.2",
     "react": "19.2.4",

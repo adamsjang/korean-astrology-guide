@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getPostsByCategory } from "@/lib/mdx";
 import { getCategory, ALL_CATEGORY_SLUGS } from "@/lib/categories";
 import ArticleCard from "@/components/article/ArticleCard";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 interface Props {
@@ -42,6 +43,26 @@ export default async function CategoryPage({ params }: Props) {
           {cat.title}
         </h1>
         <p className="text-(--color-secondary)">{cat.description}</p>
+        {category === "dream" && (
+          <Link
+            href="/dream-search"
+            className="inline-flex items-center gap-2 mt-4 text-sm font-medium px-4 py-2 rounded-lg border border-(--color-border) text-(--color-secondary) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            </svg>
+            키워드로 꿈해몽 검색하기
+          </Link>
+        )}
+        {category === "tarot" && (
+          <Link
+            href="/tarot-reading"
+            className="inline-flex items-center gap-2 mt-4 text-sm font-medium px-4 py-2 rounded-lg border border-(--color-border) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
+            style={{ color: "#6B2D5E", borderColor: "#6B2D5E40" }}
+          >
+            ✦ 오늘의 타로 카드 뽑기
+          </Link>
+        )}
       </div>
 
       {posts.length === 0 ? (

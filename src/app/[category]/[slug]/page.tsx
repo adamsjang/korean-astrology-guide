@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/mdx";
+import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/lib/mdx";
 import { getCategory } from "@/lib/categories";
 import DisclaimerBanner from "@/components/article/DisclaimerBanner";
+import RelatedPosts from "@/components/article/RelatedPosts";
 import JsonLd from "@/components/seo/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -31,6 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.description,
       type: "article",
       publishedTime: post.publishedAt,
+      ...(post.image ? { images: [{ url: post.image, width: 400, height: 700 }] } : {}),
+    },
+    twitter: {
+      card: post.image ? "summary_large_image" : "summary",
+      ...(post.image ? { images: [post.image] } : {}),
     },
   };
 }
@@ -41,6 +47,8 @@ export default async function ArticlePage({ params }: Props) {
   const { category, slug } = await params;
   const post = getPostBySlug(category, slug);
   if (!post) notFound();
+
+  const relatedPosts = getPostsByCategory(category);
 
   const cat = getCategory(category);
 
@@ -92,6 +100,7 @@ export default async function ArticlePage({ params }: Props) {
           <Content />
         </div>
 
+        <RelatedPosts currentSlug={slug} category={category} posts={relatedPosts} />
         <DisclaimerBanner />
       </div>
     </>

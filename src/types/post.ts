@@ -5,6 +5,7 @@ export interface PostFrontmatter {
   publishedAt: string;
   tags: string[];
   featured?: boolean;
+  image?: string;
 }
 
 export interface Post extends PostFrontmatter {
