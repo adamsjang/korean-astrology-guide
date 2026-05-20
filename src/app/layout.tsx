@@ -11,7 +11,7 @@ const notoSerifKr = Noto_Serif_KR({
   variable: "--font-noto-serif",
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://korean-astrology-guide.pages.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 export const metadata: Metadata = {
   title: {

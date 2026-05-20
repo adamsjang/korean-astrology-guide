@@ -48,7 +48,7 @@ export default async function ArticlePage({ params }: Props) {
     `@/content/${category}/${slug}.mdx`
   );
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://korean-astrology-guide.pages.dev";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
   return (
     <>
