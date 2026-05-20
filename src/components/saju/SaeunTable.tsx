@@ -1,34 +1,6 @@
 import { STEMS, BRANCHES, STEM_EL, BRANCH_EL, ELEMENT_COLOR } from "@/lib/saju/constants";
 import type { Element } from "@/lib/saju/constants";
-
-const SIPSEONG_LABEL = ["비견","겁재","식신","상관","편재","정재","편관","정관","편인","정인"] as const;
-const SIPSEONG_GROUP: Record<string, string> = {
-  비견: "비겁", 겁재: "비겁",
-  식신: "식상", 상관: "식상",
-  편재: "재성", 정재: "재성",
-  편관: "관성", 정관: "관성",
-  편인: "인성", 정인: "인성",
-};
-
-function getSipseong(dayIdx: number, targetIdx: number): string {
-  const dayEl = Math.floor(dayIdx / 2);
-  const targetEl = Math.floor(targetIdx / 2);
-  const sameYY = dayIdx % 2 === targetIdx % 2;
-  if (dayEl === targetEl) return sameYY ? "비견" : "겁재";
-  if ((dayEl + 1) % 5 === targetEl) return sameYY ? "상관" : "식신";
-  if ((dayEl + 2) % 5 === targetEl) return sameYY ? "편재" : "정재";
-  if ((targetEl + 2) % 5 === dayEl) return sameYY ? "편관" : "정관";
-  if ((targetEl + 1) % 5 === dayEl) return sameYY ? "편인" : "정인";
-  return "비견";
-}
-
-const GROUP_COLOR: Record<string, string> = {
-  비겁: "#6B7280",
-  식상: "#059669",
-  재성: "#D97706",
-  관성: "#7C3AED",
-  인성: "#2563EB",
-};
+import { getSipseong, SIPSEONG_GROUP, SIPSEONG_GROUP_COLOR, SIPSEONG_DESC } from "@/lib/saju/sipseong";
 
 interface Props {
   dayStemIdx: number;
@@ -76,7 +48,7 @@ export default function SaeunTable({ dayStemIdx }: Props) {
                 </p>
                 <p
                   className="text-[10px] mt-1 font-medium"
-                  style={{ color: GROUP_COLOR[group] ?? "var(--color-secondary)" }}
+                  style={{ color: SIPSEONG_GROUP_COLOR[group] ?? "var(--color-secondary)" }}
                 >
                   {sipseong}
                 </p>
@@ -85,6 +57,15 @@ export default function SaeunTable({ dayStemIdx }: Props) {
           })}
         </div>
       </div>
+      {(() => {
+        const curStemIdx = ((currentYear - 4) % 10 + 10) % 10;
+        const s = getSipseong(dayStemIdx, curStemIdx);
+        return (
+          <p className="text-xs text-(--color-secondary) mt-3">
+            올해 세운 — <span className="font-medium text-(--color-primary)">{s}</span>: {SIPSEONG_DESC[s]}
+          </p>
+        );
+      })()}
     </div>
   );
 }

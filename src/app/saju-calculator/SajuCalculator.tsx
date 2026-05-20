@@ -175,7 +175,7 @@ export default function SajuCalculator() {
           )}
 
           {daeunResult && (
-            <DaeunTable daeun={daeunResult} birthYear={result.solarDate.year} />
+            <DaeunTable daeun={daeunResult} birthYear={result.solarDate.year} dayStemIdx={result.day.stemIdx} />
           )}
 
           <SaeunTable dayStemIdx={result.day.stemIdx} />

@@ -1,13 +1,15 @@
 import { STEMS, BRANCHES, STEM_EL, BRANCH_EL, ELEMENT_COLOR } from "@/lib/saju/constants";
 import type { Element } from "@/lib/saju/constants";
 import type { DaeunResult } from "@/lib/saju/types";
+import { getSipseong, SIPSEONG_GROUP, SIPSEONG_GROUP_COLOR, SIPSEONG_DESC } from "@/lib/saju/sipseong";
 
 interface Props {
   daeun: DaeunResult;
   birthYear: number;
+  dayStemIdx?: number;
 }
 
-export default function DaeunTable({ daeun, birthYear }: Props) {
+export default function DaeunTable({ daeun, birthYear, dayStemIdx }: Props) {
   const currentYear = new Date().getFullYear();
   const currentAge = currentYear - birthYear;
   const currentDaeunIdx =
@@ -39,6 +41,8 @@ export default function DaeunTable({ daeun, birthYear }: Props) {
             const isCurrent = i === currentDaeunIdx;
             const stemEl = STEM_EL[period.stemIdx] as Element;
             const branchEl = BRANCH_EL[period.branchIdx] as Element;
+            const sipseong = dayStemIdx !== undefined ? getSipseong(dayStemIdx, period.stemIdx) : null;
+            const group = sipseong ? SIPSEONG_GROUP[sipseong] : null;
             return (
               <div
                 key={i}
@@ -55,8 +59,13 @@ export default function DaeunTable({ daeun, birthYear }: Props) {
                 <p className="text-base font-semibold leading-tight" style={{ color: ELEMENT_COLOR[branchEl] }}>
                   {BRANCHES[period.branchIdx]}
                 </p>
+                {sipseong && group && (
+                  <p className="text-[10px] mt-1 font-medium" style={{ color: SIPSEONG_GROUP_COLOR[group] }}>
+                    {sipseong}
+                  </p>
+                )}
                 {isCurrent && (
-                  <p className="text-[10px] mt-1 font-semibold" style={{ color: "var(--color-accent)" }}>
+                  <p className="text-[10px] mt-0.5 font-semibold" style={{ color: "var(--color-accent)" }}>
                     현재
                   </p>
                 )}
@@ -66,7 +75,16 @@ export default function DaeunTable({ daeun, birthYear }: Props) {
         </div>
       </div>
 
-      <p className="text-xs text-(--color-secondary) mt-3">
+      {currentDaeunIdx >= 0 && dayStemIdx !== undefined && (() => {
+        const cur = daeun.periods[currentDaeunIdx];
+        const s = getSipseong(dayStemIdx, cur.stemIdx);
+        return (
+          <p className="text-xs text-(--color-secondary) mt-3">
+            현재 대운 — <span className="font-medium text-(--color-primary)">{s}</span>: {SIPSEONG_DESC[s]}
+          </p>
+        );
+      })()}
+      <p className="text-xs text-(--color-secondary) mt-1">
         절기 근사값 기준 — 절기 경계일 출생 시 ±1년 오차가 있을 수 있습니다.
       </p>
     </div>
