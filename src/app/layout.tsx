@@ -3,6 +3,7 @@ import { Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PostHogProvider from "@/components/analytics/PostHogProvider";
 
 const notoSerifKr = Noto_Serif_KR({
   subsets: ["latin"],
@@ -48,9 +49,11 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <PostHogProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </PostHogProvider>
       </body>
     </html>
   );
