@@ -57,3 +57,13 @@ export function getFeaturedPosts(limit = 6): Post[] {
     .filter((p) => p.featured)
     .slice(0, limit);
 }
+
+export function getAllTags(): string[] {
+  const tagSet = new Set<string>();
+  getAllPosts().forEach((p) => p.tags?.forEach((t) => tagSet.add(t)));
+  return Array.from(tagSet).sort();
+}
+
+export function getPostsByTag(tag: string): Post[] {
+  return getAllPosts().filter((p) => p.tags?.includes(tag));
+}

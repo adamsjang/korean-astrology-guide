@@ -98,6 +98,20 @@ export default async function ArticlePage({ params }: Props) {
               <span>·</span>
               <span>{post.readingTime} 읽기</span>
             </div>
+            {post.tags && post.tags.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 mt-3">
+                {post.tags.map((tag) => (
+                  <Link
+                    key={tag}
+                    href={`/tags/${encodeURIComponent(tag)}`}
+                    className="text-xs px-2.5 py-1 rounded-full border border-(--color-border) text-(--color-secondary) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
+                    style={{ backgroundColor: "var(--color-surface)" }}
+                  >
+                    #{tag}
+                  </Link>
+                ))}
+              </div>
+            )}
             <ShareButton />
           </div>
         </header>

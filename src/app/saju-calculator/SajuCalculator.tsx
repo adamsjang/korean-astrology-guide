@@ -6,13 +6,14 @@ import { calculateSaju, countElements } from "@/lib/saju/pillars";
 import { calculateDaeun } from "@/lib/saju/daeun";
 import type { SajuInput, DaeunResult, Gender } from "@/lib/saju/types";
 import type { SajuResult } from "@/lib/saju/types";
-import { STEMS, STEMS_H, STEM_EL, STEM_YY, ELEMENT_COLOR } from "@/lib/saju/constants";
+import { STEMS, STEMS_H, BRANCHES, STEM_EL, STEM_YY, ELEMENT_COLOR } from "@/lib/saju/constants";
 import type { Element } from "@/lib/saju/constants";
 import DateInput from "@/components/saju/DateInput";
 import PillarCard from "@/components/saju/PillarCard";
 import ElementChart from "@/components/saju/ElementChart";
 import DaeunTable from "@/components/saju/DaeunTable";
 import SaeunTable from "@/components/saju/SaeunTable";
+import { getIljuSlug } from "@/lib/saju/ilju-slugs";
 
 const DEFAULT_INPUT: SajuInput = {
   year: 1990,
@@ -144,13 +145,31 @@ export default function SajuCalculator() {
           </div>
 
           <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-4 text-sm leading-relaxed text-(--color-secondary)">
-            일주의 천간{" "}
-            <span className="font-semibold" style={{ color: dayStemColor }}>
-              {STEMS[result.day.stemIdx]}{STEMS_H[result.day.stemIdx]}
-            </span>
-            이 나를 나타냅니다.{" "}
-            <span style={{ color: dayStemColor }}>{STEM_EL[result.day.stemIdx]}</span> 기운 ·{" "}
-            <span className="text-(--color-primary)">{STEM_YY[result.day.stemIdx]}</span>
+            <p>
+              일주의 천간{" "}
+              <span className="font-semibold" style={{ color: dayStemColor }}>
+                {STEMS[result.day.stemIdx]}{STEMS_H[result.day.stemIdx]}
+              </span>
+              이 나를 나타냅니다.{" "}
+              <span style={{ color: dayStemColor }}>{STEM_EL[result.day.stemIdx]}</span> 기운 ·{" "}
+              <span className="text-(--color-primary)">{STEM_YY[result.day.stemIdx]}</span>
+            </p>
+            {(() => {
+              const slug = getIljuSlug(result.day.stemIdx, result.day.branchIdx);
+              if (!slug) return null;
+              return (
+                <Link
+                  href={`/ilju/${slug}`}
+                  className="inline-flex items-center gap-1 mt-2 text-xs font-medium hover:underline"
+                  style={{ color: "var(--color-accent)" }}
+                >
+                  {STEMS[result.day.stemIdx]}{BRANCHES[result.day.branchIdx]} 일주 가이드 보기
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              );
+            })()}
           </div>
 
           {result.input.calendar === "lunar" && (
