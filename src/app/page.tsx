@@ -57,7 +57,7 @@ export default function HomePage() {
           <p className="text-lg text-(--color-secondary) mb-10 leading-relaxed">
             운세는 정해진 운명이 아니라 자기 이해의 도구입니다.
             <br className="hidden sm:block" />
-            140개 이상의 정보성 글과 4가지 계산 도구를 무료로 제공합니다.
+            150개 이상의 정보성 글과 4가지 계산 도구를 무료로 제공합니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
