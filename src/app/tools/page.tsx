@@ -10,7 +10,7 @@ const TOOL_CARDS = [
   {
     href: "/saju-calculator",
     label: "사주팔자 계산기",
-    description: "생년월일시를 입력하면 사주팔자(四柱八字)와 오행 분포를 계산합니다.",
+    description: "생년월일시와 성별을 입력하면 사주팔자·오행 분포·대운·세운을 계산합니다.",
     color: "var(--color-accent)",
   },
   {
@@ -22,7 +22,7 @@ const TOOL_CARDS = [
   {
     href: "/tarot-reading",
     label: "타로 카드 뽑기",
-    description: "메이저 아르카나 22장 중 오늘의 카드를 뽑아 상징과 의미를 확인합니다.",
+    description: "연애·직업·재물 등 10가지 질문 테마를 선택한 후 메이저 아르카나 카드를 뽑습니다.",
     color: "#6B2D5E",
   },
   {
@@ -30,6 +30,12 @@ const TOOL_CARDS = [
     label: "꿈해몽 키워드 검색",
     description: "꿈에서 본 것을 키워드로 검색해 관련 해몽을 찾아봅니다.",
     color: "#4A6741",
+  },
+  {
+    href: "/search",
+    label: "전체 글 검색",
+    description: "170개 이상의 글을 제목·설명·태그로 검색하고 카테고리별로 필터링합니다.",
+    color: "#374151",
   },
 ];
 

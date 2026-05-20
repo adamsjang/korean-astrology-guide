@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const STATS = [
   { value: "170+", label: "정보성 글" },
   { value: "10",   label: "주제 카테고리" },
-  { value: "4",    label: "무료 계산 도구" },
+  { value: "5+",   label: "무료 계산 도구" },
   { value: "무료",  label: "모든 서비스" },
 ];
 
@@ -89,8 +89,9 @@ export default function AboutPage() {
         </p>
         <ul>
           <li>
-            <strong>사주팔자 계산기</strong> — 양력·음력 생년월일시 입력,
-            년주·월주·일주·시주와 오행 분포 계산 (한국천문연구원 기준)
+            <strong>사주팔자 계산기</strong> — 양력·음력 생년월일시·성별 입력,
+            년주·월주·일주·시주와 오행 분포, 대운(大運)·세운(歲運) 계산
+            (한국천문연구원 기준)
           </li>
           <li>
             <strong>사주 궁합</strong> — 두 사람의 일간 오행 관계·일지
@@ -101,8 +102,11 @@ export default function AboutPage() {
             뽑기, 라이더-웨이트 카드 이미지 포함
           </li>
           <li>
-            <strong>꿈해몽 키워드 검색</strong> — 20개 꿈해몽 글을 실시간
-            키워드로 검색
+            <strong>꿈해몽 키워드 검색</strong> — 꿈해몽 글을 실시간 키워드로 검색
+          </li>
+          <li>
+            <strong>타로 질문 테마 뽑기</strong> — 10가지 질문 테마(연애·직업·재물 등)
+            선택 후 메이저 아르카나 카드 뽑기
           </li>
         </ul>
 

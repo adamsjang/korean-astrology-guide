@@ -3,6 +3,7 @@ import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/lib/mdx";
 import { getCategory } from "@/lib/categories";
 import DisclaimerBanner from "@/components/article/DisclaimerBanner";
 import RelatedPosts from "@/components/article/RelatedPosts";
+import RelatedTools from "@/components/article/RelatedTools";
 import JsonLd from "@/components/seo/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -100,6 +101,7 @@ export default async function ArticlePage({ params }: Props) {
           <Content />
         </div>
 
+        <RelatedTools category={category} />
         <RelatedPosts currentSlug={slug} category={category} posts={relatedPosts} />
         <DisclaimerBanner />
       </div>

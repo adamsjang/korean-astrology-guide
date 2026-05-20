@@ -7,7 +7,7 @@ const TOOLS = [
   {
     href: "/saju-calculator",
     label: "사주팔자 계산기",
-    desc: "생년월일시로 사주팔자와 오행 분포 계산",
+    desc: "생년월일시·성별로 사주팔자·대운·세운 계산",
     color: "#8B6914",
   },
   {
