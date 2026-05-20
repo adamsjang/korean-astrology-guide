@@ -42,7 +42,8 @@ export default async function CategoryPage({ params }: Props) {
         <h1 className="text-3xl font-semibold text-(--color-primary) mb-2">
           {cat.title}
         </h1>
-        <p className="text-(--color-secondary)">{cat.description}</p>
+        <p className="text-(--color-secondary) mb-3">{cat.description}</p>
+        <p className="text-sm text-(--color-secondary) leading-relaxed max-w-2xl">{cat.intro}</p>
         {category === "dream" && (
           <Link
             href="/dream-search"
