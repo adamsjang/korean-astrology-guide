@@ -15,6 +15,8 @@ import DaeunTable from "@/components/saju/DaeunTable";
 import SaeunTable from "@/components/saju/SaeunTable";
 import { getIljuSlug } from "@/lib/saju/ilju-slugs";
 
+const ELEMENT_LABELS: Record<string, string> = { 목: "목", 화: "화", 토: "토", 금: "금", 수: "수" };
+
 const DEFAULT_INPUT: SajuInput = {
   year: 1990,
   month: 1,
@@ -30,6 +32,7 @@ export default function SajuCalculator() {
   const [daeunResult, setDaeunResult] = useState<DaeunResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [guideOpen, setGuideOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   function calculate() {
     setError(null);
@@ -45,6 +48,29 @@ export default function SajuCalculator() {
       setResult(null);
       setDaeunResult(null);
     }
+  }
+
+  function copyResult() {
+    if (!result) return;
+    const p = (s: number, b: number) => `${STEMS[s]}${BRANCHES[b]}`;
+    const lines = [
+      `내 사주 (운세 참고서)`,
+      ``,
+      `년주 ${p(result.year.stemIdx, result.year.branchIdx)} · 월주 ${p(result.month.stemIdx, result.month.branchIdx)} · 일주 ${p(result.day.stemIdx, result.day.branchIdx)}${result.hour ? ` · 시주 ${p(result.hour.stemIdx, result.hour.branchIdx)}` : ""}`,
+      `일간: ${STEMS[result.day.stemIdx]}${STEMS_H[result.day.stemIdx]} (${STEM_EL[result.day.stemIdx]} · ${STEM_YY[result.day.stemIdx]})`,
+    ];
+    if (elementCounts) {
+      const el = Object.entries(elementCounts)
+        .filter(([, v]) => v > 0)
+        .map(([k, v]) => `${ELEMENT_LABELS[k] ?? k}${v}`)
+        .join(" ");
+      lines.push(`오행: ${el}`);
+    }
+    lines.push(``, `https://korean-astrology-guide.pages.dev/saju-calculator`);
+    navigator.clipboard.writeText(lines.join("\n")).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
   }
 
   const pillars = result
@@ -143,6 +169,18 @@ export default function SajuCalculator() {
               />
             ))}
           </div>
+
+          <button
+            type="button"
+            onClick={copyResult}
+            className="w-full py-2.5 rounded-xl border text-sm font-semibold transition-colors"
+            style={{
+              borderColor: copied ? "var(--color-accent)" : "var(--color-border)",
+              color: copied ? "var(--color-accent)" : "var(--color-secondary)",
+            }}
+          >
+            {copied ? "복사됨 ✓" : "결과 텍스트 복사"}
+          </button>
 
           <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-4 text-sm leading-relaxed text-(--color-secondary)">
             <p>
