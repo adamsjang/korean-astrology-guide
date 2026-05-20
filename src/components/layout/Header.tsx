@@ -39,6 +39,12 @@ export default function Header() {
           >
             도구
           </Link>
+          <Link href="/search" aria-label="검색" className="text-(--color-secondary) hover:text-(--color-primary) transition-colors">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            </svg>
+          </Link>
         </nav>
 
         <button
@@ -54,6 +60,17 @@ export default function Header() {
 
       {menuOpen && (
         <div className="md:hidden border-t border-(--color-border) bg-(--color-surface)">
+          <Link
+            href="/search"
+            className="flex items-center gap-2 px-4 py-2.5 text-sm text-(--color-secondary) hover:bg-(--color-base) hover:text-(--color-primary)"
+            onClick={() => setMenuOpen(false)}
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            </svg>
+            글 검색
+          </Link>
           <div className="border-b border-(--color-border) mb-1 pb-1">
             <p className="px-4 py-1.5 text-xs font-semibold uppercase tracking-wider" style={{ color: "var(--color-accent)" }}>
               도구
