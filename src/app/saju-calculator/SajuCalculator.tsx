@@ -3,13 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 import { calculateSaju, countElements } from "@/lib/saju/pillars";
-import type { SajuInput } from "@/lib/saju/types";
+import { calculateDaeun } from "@/lib/saju/daeun";
+import type { SajuInput, DaeunResult, Gender } from "@/lib/saju/types";
 import type { SajuResult } from "@/lib/saju/types";
 import { STEMS, STEMS_H, STEM_EL, STEM_YY, ELEMENT_COLOR } from "@/lib/saju/constants";
 import type { Element } from "@/lib/saju/constants";
 import DateInput from "@/components/saju/DateInput";
 import PillarCard from "@/components/saju/PillarCard";
 import ElementChart from "@/components/saju/ElementChart";
+import DaeunTable from "@/components/saju/DaeunTable";
 
 const DEFAULT_INPUT: SajuInput = {
   year: 1990,
@@ -21,7 +23,9 @@ const DEFAULT_INPUT: SajuInput = {
 
 export default function SajuCalculator() {
   const [input, setInput] = useState<SajuInput>(DEFAULT_INPUT);
+  const [gender, setGender] = useState<Gender>("male");
   const [result, setResult] = useState<SajuResult | null>(null);
+  const [daeunResult, setDaeunResult] = useState<DaeunResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [guideOpen, setGuideOpen] = useState(false);
 
@@ -30,12 +34,14 @@ export default function SajuCalculator() {
     try {
       const res = calculateSaju(input);
       setResult(res);
+      setDaeunResult(calculateDaeun(res, gender));
       try {
-        localStorage.setItem("saju_last_input", JSON.stringify(input));
+        localStorage.setItem("saju_last_input", JSON.stringify({ ...input, gender }));
       } catch { /* ignore */ }
     } catch (e) {
       setError(e instanceof Error ? e.message : "계산 중 오류가 발생했습니다.");
       setResult(null);
+      setDaeunResult(null);
     }
   }
 
@@ -69,8 +75,30 @@ export default function SajuCalculator() {
         생년월일시를 입력하면 사주팔자를 계산합니다.
       </p>
 
-      <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-5 mb-4">
+      <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-5 mb-4 space-y-4">
         <DateInput value={input} onChange={setInput} showHour={true} />
+        <div>
+          <p className="text-xs text-(--color-secondary) mb-2">성별 (대운 계산용)</p>
+          <div className="flex gap-2">
+            {(["male", "female"] as Gender[]).map((g) => (
+              <button
+                key={g}
+                type="button"
+                onClick={() => setGender(g)}
+                className="flex-1 py-2 rounded-lg text-sm font-semibold border transition-colors"
+                style={{
+                  borderColor: gender === g ? "var(--color-accent)" : "var(--color-border)",
+                  color: gender === g ? "var(--color-accent)" : "var(--color-secondary)",
+                  backgroundColor: gender === g
+                    ? "color-mix(in srgb, var(--color-accent) 8%, transparent)"
+                    : "transparent",
+                }}
+              >
+                {g === "male" ? "남자" : "여자"}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
       {error && (
@@ -143,6 +171,10 @@ export default function SajuCalculator() {
               <p className="text-sm font-semibold text-(--color-primary) mb-4">오행 분포</p>
               <ElementChart elements={elementCounts} total={total} />
             </div>
+          )}
+
+          {daeunResult && (
+            <DaeunTable daeun={daeunResult} birthYear={result.solarDate.year} />
           )}
 
           <div className="rounded-xl border border-(--color-border) bg-(--color-surface) overflow-hidden">

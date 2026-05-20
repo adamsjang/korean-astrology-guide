@@ -1,3 +1,5 @@
+export type Gender = "male" | "female";
+
 export interface SajuInput {
   year: number;
   month: number;
@@ -6,6 +8,7 @@ export interface SajuInput {
   calendar: "solar" | "lunar";
   isLeapMonth?: boolean;     // 음력 윤달 여부
   name?: string;             // 궁합 레이블용
+  gender?: Gender;
 }
 
 export interface Pillar {
@@ -20,7 +23,18 @@ export interface SajuResult {
   month: Pillar;
   day: Pillar;
   hour?: Pillar;
-  // 확장 슬롯
-  // daeun?: DaeunPeriod[];
-  // yongshin?: string;
+}
+
+export interface DaeunPeriod {
+  stemIdx: number;
+  branchIdx: number;
+  startAge: number;
+  startYear: number;
+}
+
+export interface DaeunResult {
+  gender: Gender;
+  daeunNumber: number;
+  isForward: boolean;
+  periods: DaeunPeriod[];
 }
