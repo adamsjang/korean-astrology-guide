@@ -12,7 +12,7 @@ const STATS = [
   { value: "130+", label: "정보성 글" },
   { value: "10",   label: "주제 카테고리" },
   { value: "4",    label: "무료 계산 도구" },
-  { value: "무료",  label: "광고 없는 콘텐츠" },
+  { value: "무료",  label: "모든 서비스" },
 ];
 
 export default function AboutPage() {
