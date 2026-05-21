@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getPostsByCategory } from "@/lib/mdx";
+import { getPostsByCategory, getTopTagsForCategory } from "@/lib/mdx";
 import { getCategory, ALL_CATEGORY_SLUGS } from "@/lib/categories";
 import ArticleCard from "@/components/article/ArticleCard";
 import Link from "next/link";
@@ -29,6 +29,7 @@ export default async function CategoryPage({ params }: Props) {
   if (!cat) notFound();
 
   const posts = getPostsByCategory(category);
+  const topTags = getTopTagsForCategory(category, 8);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -65,6 +66,27 @@ export default async function CategoryPage({ params }: Props) {
           </Link>
         )}
       </div>
+
+      {topTags.length > 0 && (
+        <div className="mb-10">
+          <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-3">
+            자주 다루는 태그
+          </p>
+          <ul className="flex flex-wrap gap-2">
+            {topTags.map(({ tag, count }) => (
+              <li key={tag}>
+                <Link
+                  href={`/tags/${encodeURIComponent(tag)}`}
+                  className="inline-flex items-center gap-1.5 text-sm px-3 py-1 border border-(--color-border) rounded-full text-(--color-secondary) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
+                >
+                  <span>#{tag}</span>
+                  <span className="text-xs opacity-60">{count}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {posts.length === 0 ? (
         <p className="text-(--color-secondary)">아직 작성된 글이 없습니다.</p>

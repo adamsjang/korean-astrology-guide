@@ -1,11 +1,18 @@
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug, getPostsByCategory } from "@/lib/mdx";
+import {
+  getAllPosts,
+  getPostBySlug,
+  getPostsByCategory,
+  getHeadings,
+} from "@/lib/mdx";
 import { getCategory } from "@/lib/categories";
 import DisclaimerBanner from "@/components/article/DisclaimerBanner";
 import RelatedPosts from "@/components/article/RelatedPosts";
 import RelatedTools from "@/components/article/RelatedTools";
 import PrevNextNav from "@/components/article/PrevNextNav";
 import ShareButton from "@/components/article/ShareButton";
+import TableOfContents from "@/components/article/TableOfContents";
+import ReadingProgress from "@/components/article/ReadingProgress";
 import JsonLd from "@/components/seo/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -54,6 +61,7 @@ export default async function ArticlePage({ params }: Props) {
   const relatedPosts = getPostsByCategory(category);
 
   const cat = getCategory(category);
+  const headings = getHeadings(category, slug);
 
   const { default: Content } = await import(
     `@/content/${category}/${slug}.mdx`
@@ -63,6 +71,7 @@ export default async function ArticlePage({ params }: Props) {
 
   return (
     <>
+      <ReadingProgress />
       <JsonLd post={post} url={`${siteUrl}/${category}/${slug}`} />
       <div className="max-w-3xl mx-auto px-4 py-12">
         <nav className="flex items-center gap-2 text-sm text-(--color-secondary) mb-8">
@@ -116,7 +125,9 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
-        <div className="prose prose-stone max-w-none prose-headings:font-semibold prose-headings:text-(--color-primary) prose-p:text-(--color-primary) prose-p:leading-[1.85] prose-a:text-(--color-accent) prose-strong:text-(--color-primary)">
+        <TableOfContents headings={headings} />
+
+        <div className="prose prose-stone max-w-none prose-headings:font-semibold prose-headings:text-(--color-primary) prose-headings:scroll-mt-20 prose-p:text-(--color-primary) prose-p:leading-[1.85] prose-a:text-(--color-accent) prose-strong:text-(--color-primary)">
           <Content />
         </div>
 

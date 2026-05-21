@@ -9,16 +9,23 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllTags().map((tag) => ({ tag: encodeURIComponent(tag) }));
+  return getAllTags().map((tag) => ({ tag }));
 }
+
+const INDEXABLE_TAG_MIN = 3;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { tag } = await params;
   const decoded = decodeURIComponent(tag);
+  const count = getPostsByTag(decoded).length;
+  const shouldIndex = count >= INDEXABLE_TAG_MIN;
   return {
     title: `#${decoded} 관련 글`,
     description: `${decoded} 태그가 붙은 글 목록입니다.`,
-    robots: { index: false, follow: true },
+    alternates: { canonical: `/tags/${encodeURIComponent(decoded)}` },
+    robots: shouldIndex
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
   };
 }
 

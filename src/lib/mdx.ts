@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 import { Post, PostFrontmatter } from "@/types/post";
 import { ALL_CATEGORY_SLUGS } from "@/lib/categories";
+import { slugify } from "@/lib/slugify";
 
 const CONTENT_DIR = path.join(process.cwd(), "src/content");
 
@@ -66,4 +67,77 @@ export function getAllTags(): string[] {
 
 export function getPostsByTag(tag: string): Post[] {
   return getAllPosts().filter((p) => p.tags?.includes(tag));
+}
+
+export interface TagBucket {
+  tag: string;
+  count: number;
+}
+
+export function getAllTagBuckets(): TagBucket[] {
+  const counts = new Map<string, number>();
+  for (const post of getAllPosts()) {
+    for (const raw of post.tags ?? []) {
+      const tag = raw.trim();
+      if (!tag) continue;
+      counts.set(tag, (counts.get(tag) ?? 0) + 1);
+    }
+  }
+  return Array.from(counts.entries())
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => (b.count - a.count) || a.tag.localeCompare(b.tag, "ko"));
+}
+
+export function getTopTagsForCategory(
+  category: string,
+  limit = 8
+): TagBucket[] {
+  const counts = new Map<string, number>();
+  for (const post of getPostsByCategory(category)) {
+    for (const raw of post.tags ?? []) {
+      const tag = raw.trim();
+      if (!tag) continue;
+      counts.set(tag, (counts.get(tag) ?? 0) + 1);
+    }
+  }
+  return Array.from(counts.entries())
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => (b.count - a.count) || a.tag.localeCompare(b.tag, "ko"))
+    .slice(0, limit);
+}
+
+export interface Heading {
+  depth: 2 | 3;
+  text: string;
+  id: string;
+}
+
+export function getHeadings(category: string, slug: string): Heading[] {
+  const filePath = path.join(CONTENT_DIR, category, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const { content } = matter(raw);
+
+  const headings: Heading[] = [];
+  let inFence = false;
+  for (const rawLine of content.split("\n")) {
+    const line = rawLine.trimEnd();
+    if (line.startsWith("```")) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const m2 = line.match(/^##\s+(.+?)\s*#*\s*$/);
+    if (m2) {
+      const text = m2[1].trim();
+      headings.push({ depth: 2, text, id: slugify(text) });
+      continue;
+    }
+    const m3 = line.match(/^###\s+(.+?)\s*#*\s*$/);
+    if (m3) {
+      const text = m3[1].trim();
+      headings.push({ depth: 3, text, id: slugify(text) });
+    }
+  }
+  return headings.filter((h) => h.id);
 }

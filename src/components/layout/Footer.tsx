@@ -50,6 +50,8 @@ export default function Footer() {
             </p>
             <ul className="space-y-1.5">
               {[
+                { href: "/search", label: "검색" },
+                { href: "/tags", label: "태그 인덱스" },
                 { href: "/about", label: "소개" },
                 { href: "/contact", label: "문의" },
                 { href: "/disclaimer", label: "면책 고지" },
