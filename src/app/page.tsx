@@ -28,6 +28,12 @@ const TOOLS = [
     desc: "꿈에서 본 것을 키워드로 검색",
     color: "#4A6741",
   },
+  {
+    href: "/iljin",
+    label: "일진 계산기",
+    desc: "날짜별 일주·십이직·손 없는 날 확인",
+    color: "#5C4A3A",
+  },
 ];
 
 export default function HomePage() {

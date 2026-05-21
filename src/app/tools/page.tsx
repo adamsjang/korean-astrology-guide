@@ -32,6 +32,12 @@ const TOOL_CARDS = [
     color: "#4A6741",
   },
   {
+    href: "/iljin",
+    label: "일진 계산기",
+    description: "날짜를 선택하면 그날의 일주·십이직·음력 날짜·손 없는 날 여부를 확인합니다.",
+    color: "#5C4A3A",
+  },
+  {
     href: "/search",
     label: "전체 글 검색",
     description: "170개 이상의 글을 제목·설명·태그로 검색하고 카테고리별로 필터링합니다.",
