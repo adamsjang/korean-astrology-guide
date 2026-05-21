@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getPostsByCategory, getTopTagsForCategory } from "@/lib/mdx";
 import { getCategory, ALL_CATEGORY_SLUGS } from "@/lib/categories";
-import ArticleCard from "@/components/article/ArticleCard";
+import PaginatedPostList from "@/components/article/PaginatedPostList";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -88,15 +88,7 @@ export default async function CategoryPage({ params }: Props) {
         </div>
       )}
 
-      {posts.length === 0 ? (
-        <p className="text-(--color-secondary)">아직 작성된 글이 없습니다.</p>
-      ) : (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {posts.map((post) => (
-            <ArticleCard key={post.slug} post={post} />
-          ))}
-        </div>
-      )}
+      <PaginatedPostList posts={posts} pageSize={20} />
     </div>
   );
 }

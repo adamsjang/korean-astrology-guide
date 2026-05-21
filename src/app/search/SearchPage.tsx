@@ -6,6 +6,26 @@ import Link from "next/link";
 import { Post } from "@/types/post";
 import { CATEGORIES } from "@/lib/categories";
 
+function highlight(text: string, query: string) {
+  const q = query.trim();
+  if (!q) return text;
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`(${escaped})`, "i");
+  const parts = text.split(new RegExp(`(${escaped})`, "gi"));
+  return parts.map((part, i) =>
+    re.test(part) ? (
+      <mark
+        key={i}
+        className="bg-(--color-accent) text-(--color-surface) rounded-sm px-0.5"
+      >
+        {part}
+      </mark>
+    ) : (
+      <span key={i}>{part}</span>
+    )
+  );
+}
+
 export default function SearchPage({ posts }: { posts: Post[] }) {
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
@@ -103,10 +123,10 @@ export default function SearchPage({ posts }: { posts: Post[] }) {
                     </span>
                   )}
                   <h3 className="text-sm font-semibold text-(--color-primary) leading-snug mb-1 group-hover:text-(--color-accent) transition-colors line-clamp-2">
-                    {post.title}
+                    {highlight(post.title, query)}
                   </h3>
                   <p className="text-sm text-(--color-secondary) leading-relaxed line-clamp-2">
-                    {post.description}
+                    {highlight(post.description, query)}
                   </p>
                   <p className="text-xs text-(--color-secondary) mt-2">{post.readingTime} 읽기</p>
                 </Link>
