@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: "운세 참고서 RSS" }],
+    },
   },
   openGraph: {
     siteName: "운세 참고서",

@@ -52,6 +52,7 @@ export default function Footer() {
               {[
                 { href: "/search", label: "검색" },
                 { href: "/tags", label: "태그 인덱스" },
+                { href: "/feed.xml", label: "RSS 피드" },
                 { href: "/about", label: "소개" },
                 { href: "/contact", label: "문의" },
                 { href: "/disclaimer", label: "면책 고지" },

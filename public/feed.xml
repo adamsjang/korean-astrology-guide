@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>운세 참고서</title>
+    <link>https://korean-astrology-guide.pages.dev</link>
+    <description>명리학·별자리·타로·꿈해몽을 교육적으로 해설하는 정보성 콘텐츠 사이트.</description>
+    <language>ko</language>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://korean-astrology-guide.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026년 하반기 별자리별 연애운 — 12별자리 흐름 정리</title>
+      <link>https://korean-astrology-guide.pages.dev/column/zodiac-2026-second-half</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/column/zodiac-2026-second-half</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>점성술 관점에서 2026년 하반기 각 별자리의 연애 흐름과 주목할 시기를 정리합니다.</description>
+      <category>column</category>
+      <category>별자리</category>
+      <category>연애운</category>
+      <category>2026년</category>
+      <category>점성술</category>
+    </item>
+    <item>
+      <title>타로 스프레드 실전 활용법 — 혼자서도 의미 있게 뽑는 방법</title>
+      <link>https://korean-astrology-guide.pages.dev/column/tarot-spread-practice</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/column/tarot-spread-practice</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>타로 카드를 혼자 뽑을 때 의미 있게 해석하는 스프레드 방법과 주의사항을 설명합니다.</description>
+      <category>column</category>
+      <category>타로</category>
+      <category>타로스프레드</category>
+      <category>타로실전</category>
+      <category>타로활용</category>
+    </item>
+    <item>
+      <title>사주로 보는 시기론 — 언제 시작하고 언제 기다려야 하는가</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-timing</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-timing</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 대운과 세운의 흐름을 통해 행동 시기를 판단하는 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>시기론</category>
+      <category>대운</category>
+      <category>세운</category>
+      <category>사주</category>
+    </item>
+    <item>
+      <title>사주로 보는 인간관계 패턴 — 십성으로 읽는 관계 에너지</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-relationship-pattern</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-relationship-pattern</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학 십성(비겁·식상·재성·관성·인성)이 대인관계에서 어떻게 나타나는지 설명합니다.</description>
+      <category>learn</category>
+      <category>십성</category>
+      <category>인간관계</category>
+      <category>명리학</category>
+      <category>사주</category>
+    </item>
+    <item>
+      <title>사주로 연애운 읽는 법 — 배우자 인연과 연애 시기 보는 기준</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-love-reading</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-love-reading</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 연애운과 배우자 인연을 판단하는 핵심 기준을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>연애운</category>
+      <category>사주</category>
+      <category>배우자</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>10천간 일간별 핵심 성격 — 갑목에서 계수까지 실전 해설</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/ilgan-characteristics</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/ilgan-characteristics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>사주의 일간(일간) 천간 10개 각각의 성격·강점·약점·대인관계 특성을 실전 중심으로 설명합니다.</description>
+      <category>learn</category>
+      <category>천간</category>
+      <category>일간</category>
+      <category>성격</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>사주로 보는 스트레스 유형과 해소법 — 오행별 번아웃 패턴</title>
+      <link>https://korean-astrology-guide.pages.dev/column/saju-stress-type</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/column/saju-stress-type</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>오행과 일간에 따라 스트레스를 받는 방식과 회복하는 방법이 어떻게 다른지 설명합니다.</description>
+      <category>column</category>
+      <category>스트레스</category>
+      <category>사주</category>
+      <category>오행</category>
+      <category>번아웃</category>
+    </item>
+    <item>
+      <title>일간별 재물 관리 스타일 — 갑~계 10개 일간의 돈 씀씀이</title>
+      <link>https://korean-astrology-guide.pages.dev/column/ilgan-money-style</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/column/ilgan-money-style</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학 일간 오행에 따라 재물을 대하는 방식과 소비 패턴이 어떻게 다른지 설명합니다.</description>
+      <category>column</category>
+      <category>일간</category>
+      <category>재물</category>
+      <category>명리학</category>
+      <category>소비패턴</category>
+    </item>
+    <item>
+      <title>사주 상담 전 준비 체크리스트 — 더 정확한 상담을 받는 법</title>
+      <link>https://korean-astrology-guide.pages.dev/fortune-guide/saju-consultation-prep</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/fortune-guide/saju-consultation-prep</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>사주 상담을 받기 전 준비해야 할 것들과 좋은 상담을 고르는 기준을 안내합니다.</description>
+      <category>fortune-guide</category>
+      <category>사주상담</category>
+      <category>상담준비</category>
+      <category>사주</category>
+      <category>운세</category>
+    </item>
+    <item>
+      <title>오행별 개운법 실전 가이드 — 부족한 기운을 채우는 방법</title>
+      <link>https://korean-astrology-guide.pages.dev/fortune-guide/oheng-gaewun</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/fortune-guide/oheng-gaewun</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>사주에서 부족한 오행을 파악하고 일상에서 실천할 수 있는 개운법을 소개합니다.</description>
+      <category>fortune-guide</category>
+      <category>개운법</category>
+      <category>오행</category>
+      <category>사주</category>
+      <category>실전</category>
+    </item>
+    <item>
+      <title>일진을 일상에서 활용하는 법 — 십이직을 참고하는 현명한 방법</title>
+      <link>https://korean-astrology-guide.pages.dev/fortune-guide/how-to-use-iljin</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/fortune-guide/how-to-use-iljin</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>일진과 십이직 정보를 일상에서 현명하게 참고하는 방법과 주의할 점을 설명합니다.</description>
+      <category>fortune-guide</category>
+      <category>일진</category>
+      <category>십이직</category>
+      <category>개운</category>
+      <category>일상활용</category>
+    </item>
+    <item>
+      <title>꿈해몽 일지 쓰는 법 — 꿈을 기록하고 패턴 읽기</title>
+      <link>https://korean-astrology-guide.pages.dev/fortune-guide/dream-journal</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/fortune-guide/dream-journal</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description>꿈을 효과적으로 기록하고 반복 패턴을 찾아 자기 이해에 활용하는 방법을 설명합니다.</description>
+      <category>fortune-guide</category>
+      <category>꿈일지</category>
+      <category>꿈해몽</category>
+      <category>꿈기록</category>
+      <category>자기이해</category>
+    </item>
+    <item>
+      <title>십이지지(十二地支) 성격 특성 — 자~해 일지별 특성</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/twelve-branches-personality</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/twelve-branches-personality</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 자축인묘부터 술해까지 열두 지지의 성격 특성과 기질을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>지지</category>
+      <category>십이지지</category>
+      <category>일지</category>
+      <category>성격</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>십천간(十天干) 성격 특성 — 갑~계 일간별 기질</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/ten-stems-personality</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/ten-stems-personality</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 갑목부터 계수까지 열 개의 천간 일간이 가지는 성격 기질을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>천간</category>
+      <category>일간</category>
+      <category>성격</category>
+      <category>기질</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>신강신약(身强身弱) — 일간의 강약 판단법</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/singnyak-gang</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/singnyak-gang</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 일간이 강한지 약한지를 판단하는 신강·신약의 개념과 판별 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>신강</category>
+      <category>신약</category>
+      <category>일간</category>
+      <category>명리학</category>
+      <category>사주</category>
+    </item>
+    <item>
+      <title>재성(財星)과 재물운 — 사주에서 재물을 보는 방법</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-wealth</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-wealth</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 재성의 개념과 사주를 통해 재물운을 이해하는 방법을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>재성</category>
+      <category>재물운</category>
+      <category>사주</category>
+      <category>명리학</category>
+      <category>십성</category>
+    </item>
+    <item>
+      <title>인성(印星)과 부모 — 사주에서 부모·학업 인연 읽기</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-parents</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-parents</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 인성(印星)의 개념과 부모 인연, 학업 운을 사주를 통해 이해하는 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>인성</category>
+      <category>부모</category>
+      <category>학업</category>
+      <category>사주</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>배우자궁과 결혼 — 일지와 배우자 인연 읽기</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-marriage</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-marriage</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 일지와 배우자궁을 통해 결혼 인연과 배우자 기질을 이해하는 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>배우자</category>
+      <category>결혼</category>
+      <category>일지</category>
+      <category>사주</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>사주와 건강 — 오행별 관련 신체 부위와 기질</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-health</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-health</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 오행과 신체 부위의 관계, 건강 기질을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>사주</category>
+      <category>건강</category>
+      <category>오행</category>
+      <category>명리학</category>
+      <category>신체</category>
+    </item>
+    <item>
+      <title>사주와 직업·적성 — 일간 오행별 어울리는 분야</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/saju-career</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/saju-career</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 일간의 오행과 십성을 바탕으로 직업 적성을 이해하는 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>사주</category>
+      <category>직업</category>
+      <category>적성</category>
+      <category>일간</category>
+      <category>명리학</category>
+    </item>
+    <item>
+      <title>오행 균형과 보완 — 부족한 오행을 채우는 관점</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/oheng-balance</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/oheng-balance</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학에서 오행의 균형이 중요한 이유와 부족한 오행을 일상에서 보완하는 방법을 설명합니다.</description>
+      <category>learn</category>
+      <category>오행</category>
+      <category>균형</category>
+      <category>보완</category>
+      <category>명리학</category>
+      <category>사주</category>
+    </item>
+    <item>
+      <title>격국론 기초 — 사주에서 격국이란 무엇인가</title>
+      <link>https://korean-astrology-guide.pages.dev/learn/gyeokguk-basics</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/learn/gyeokguk-basics</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>명리학 격국론의 기본 개념과 격국을 파악하는 방법을 교육적으로 설명합니다.</description>
+      <category>learn</category>
+      <category>격국</category>
+      <category>명리학</category>
+      <category>사주</category>
+      <category>격국론</category>
+    </item>
+    <item>
+      <title>인중 관상 — 생명력과 자녀운의 전통적 해석</title>
+      <link>https://korean-astrology-guide.pages.dev/physiognomy/philtrum-reading</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/physiognomy/philtrum-reading</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>전통 관상학에서 코와 입술 사이의 인중이 나타내는 의미와 길이·형태별 해석을 설명합니다.</description>
+      <category>physiognomy</category>
+      <category>관상</category>
+      <category>인중</category>
+      <category>관상학</category>
+    </item>
+    <item>
+      <title>수성선(건강선) 해석 — 의사소통과 건강의 상징</title>
+      <link>https://korean-astrology-guide.pages.dev/palmistry/mercury-line-pinky</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/palmistry/mercury-line-pinky</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>손금에서 수성선(건강선)이 나타내는 의미와 형태별 해석, 그리고 흔한 오해를 설명합니다.</description>
+      <category>palmistry</category>
+      <category>손금</category>
+      <category>수성선</category>
+      <category>건강선</category>
+      <category>수상학</category>
+    </item>
+    <item>
+      <title>손 모양으로 보는 기질 — 불·땅·공기·물 손</title>
+      <link>https://korean-astrology-guide.pages.dev/palmistry/hand-shape-types</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/palmistry/hand-shape-types</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>수상학에서 손의 전체적인 형태로 기질을 파악하는 네 가지 손 유형(불·땅·공기·물)과 각각의 특성을 설명합니다.</description>
+      <category>palmistry</category>
+      <category>손금</category>
+      <category>수상학</category>
+      <category>손모양</category>
+      <category>기질</category>
+    </item>
+    <item>
+      <title>손의 언덕(구)으로 보는 에너지 분포</title>
+      <link>https://korean-astrology-guide.pages.dev/palmistry/hand-mounts-guide</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/palmistry/hand-mounts-guide</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>수상학에서 손바닥의 두툼한 부분인 언덕(구)이 나타내는 의미와 각 위치별 해석을 설명합니다.</description>
+      <category>palmistry</category>
+      <category>손금</category>
+      <category>수상학</category>
+      <category>손언덕</category>
+      <category>구</category>
+    </item>
+    <item>
+      <title>처녀자리와 연애하기 — 조심스러운 사랑을 여는 법</title>
+      <link>https://korean-astrology-guide.pages.dev/zodiac/virgo-love</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/zodiac/virgo-love</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>처녀자리(8/23~9/22)와 연애할 때 알아야 할 관심 신호, 신뢰 쌓는 법, 갈등 패턴, 잘 맞는 별자리를 설명합니다.</description>
+      <category>zodiac</category>
+      <category>처녀자리</category>
+      <category>처녀자리연애</category>
+      <category>별자리궁합</category>
+      <category>연애</category>
+    </item>
+    <item>
+      <title>처녀자리 궁합 — 12별자리와의 관계 분석</title>
+      <link>https://korean-astrology-guide.pages.dev/zodiac/virgo-compatibility</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/zodiac/virgo-compatibility</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>점성술에서 처녀자리와 12별자리의 궁합 관계를 원소별로 분석합니다.</description>
+      <category>zodiac</category>
+      <category>처녀자리</category>
+      <category>처녀자리궁합</category>
+      <category>별자리궁합</category>
+      <category>점성술</category>
+    </item>
+    <item>
+      <title>황소자리와 연애하기 — 신중한 사랑을 여는 법과 관계 가이드</title>
+      <link>https://korean-astrology-guide.pages.dev/zodiac/taurus-love</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/zodiac/taurus-love</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>황소자리(4/20~5/20)와 연애할 때 알아야 할 관심 신호, 신뢰 쌓는 법, 갈등 패턴, 잘 맞는 별자리를 설명합니다.</description>
+      <category>zodiac</category>
+      <category>황소자리</category>
+      <category>황소자리연애</category>
+      <category>별자리궁합</category>
+      <category>연애</category>
+    </item>
+    <item>
+      <title>황소자리 궁합 — 12별자리와의 관계 분석</title>
+      <link>https://korean-astrology-guide.pages.dev/zodiac/taurus-compatibility</link>
+      <guid isPermaLink="true">https://korean-astrology-guide.pages.dev/zodiac/taurus-compatibility</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>점성술에서 황소자리(4/20~5/20)와 12별자리의 궁합 관계를 원소별로 분석합니다.</description>
+      <category>zodiac</category>
+      <category>황소자리</category>
+      <category>황소자리궁합</category>
+      <category>별자리궁합</category>
+      <category>점성술</category>
+    </item>
+  </channel>
+</rss>

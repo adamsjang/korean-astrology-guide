@@ -2,27 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://korean-astrology-guide.pages.dev</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/about</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/contact</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/disclaimer</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/privacy</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/terms</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tools</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/iljin</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/saju-calculator</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/gunghap</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tarot-reading</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream-search</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/tags</loc>
@@ -31,56 +79,20 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/privacy</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/terms</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility</loc>
-    <lastmod>2026-05-20</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/dream</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -91,256 +103,46 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac</loc>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility</loc>
     <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/column</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/zodiac-animal</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/bigyeop-love</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/breakup-recovery-saju</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/gwanseong-women-love</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/jaeseong-men-love</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/obsession-saju</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/siksang-love</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/byungfire-love</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/cheongan-jiji-compatibility</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/compatibility-misconceptions</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/eulwood-love</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/gapwood-love</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/giearth-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/gyeonggold-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/gyesuwater-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/imwater-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/jeongfire-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/muearth-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/oheng-balance-compatibility</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/singold-love</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/compatibility/why-not-just-ilju</loc>
-    <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/ancestor-dream</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/cat-dream</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/chased-dream</loc>
-    <lastmod>2026-04-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/death-dream</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/dog-dream</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/dont-trust-dream</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/ex-dream</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/exam-dream</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/falling-dream</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/fire-dream</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/house-dream</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/money-dream</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/pig-dream</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/pregnancy-dream</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/sea-dream</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/snake-dream</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/teeth-falling-dream</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/water-dream</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/wedding-dream</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/what-is-dream-interpretation</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://korean-astrology-guide.pages.dev/ilju</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://korean-astrology-guide.pages.dev/fortune-guide/bad-compatibility-response</loc>
@@ -367,8 +169,44 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/dream-interpretation-practice</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/dream-journal</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/fortune-self-reflection-journal</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://korean-astrology-guide.pages.dev/fortune-guide/free-vs-paid-fortune</loc>
     <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/how-to-use-iljin</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/new-year-fortune-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/oheng-gaewun</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -385,8 +223,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/saju-consultation-prep</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://korean-astrology-guide.pages.dev/fortune-guide/saju-self-understanding</loc>
     <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/tarot-daily-guidance</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/understanding-daeun-life-flow</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -403,164 +259,596 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/cheongan-10gods</loc>
-    <lastmod>2026-04-28</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/accident-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/daeun-seun</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/ancestor-dream</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/hapchung-guide</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/baby-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/jiji-12branches</loc>
-    <lastmod>2026-04-27</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/bear-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/oheng-basics</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/bird-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-structure</loc>
-    <lastmod>2026-04-16</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/blood-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/sipseong-guide</loc>
+    <loc>https://korean-astrology-guide.pages.dev/dream/bridge-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/car-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/cat-dream</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/celebrity-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/chased-dream</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/what-is-ilju</loc>
-    <lastmod>2026-04-17</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/cow-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/yongshin-guide</loc>
-    <lastmod>2026-03-09</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/cry-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/brain-line</loc>
-    <lastmod>2026-03-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/death-dream</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/fate-line</loc>
-    <lastmod>2026-03-20</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/dog-dream</loc>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/heart-line</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/dont-trust-dream</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/life-line</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/dragon-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/marriage-line</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/earthquake-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/palmistry-basics</loc>
-    <lastmod>2026-04-22</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/ex-dream</loc>
+    <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/palmistry-change</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/exam-dream</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/sun-line</loc>
-    <lastmod>2026-03-19</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/falling-dream</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/money-line</loc>
-    <lastmod>2026-03-19</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/fight-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/ear-physiognomy</loc>
-    <lastmod>2026-03-11</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/fire-dream</loc>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/eyebrow-physiognomy</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/fish-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/eyes-physiognomy</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/flower-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/forehead-physiognomy</loc>
-    <lastmod>2026-03-16</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/flying-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/jaw-physiognomy</loc>
-    <lastmod>2026-03-12</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/forest-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/mouth-physiognomy</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/ghost-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/nose-physiognomy</loc>
-    <lastmod>2026-03-14</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/gold-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/physiognomy-self-understanding</loc>
-    <lastmod>2026-04-18</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/hair-dream</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/what-is-physiognomy</loc>
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/dream/horse-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/hospital-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/house-dream</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/knife-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/lightning-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/lost-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/lottery-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/mirror-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/money-dream</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/mountain-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/phone-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/pig-dream</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/pregnancy-dream</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/rabbit-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/rain-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/rainbow-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/school-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/sea-dream</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/snake-dream</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/spider-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/stranger-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/sun-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/teeth-falling-dream</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/tiger-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/toilet-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/transport-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/water-dream</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/weapon-dream</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/wedding-dream</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/dream/what-is-dream-interpretation</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-personality</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-personality</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-personality</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-personality</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-personality</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-personality</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-personality</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-personality</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-personality</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-personality</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-personality</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-compatibility</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-love</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-personality</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-12-basics</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-compatibility-caution</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-elements-personality</loc>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -721,201 +1009,435 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/brain-line</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/fate-line</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/hand-mounts-guide</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/hand-shape-types</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/heart-line</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/life-line</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/marriage-line</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/mercury-line-pinky</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/money-line</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-personality</loc>
-    <lastmod>2026-05-18</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/palmistry-basics</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-personality</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/palmistry-change</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/palmistry/sun-line</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/cheekbone-reading</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-personality</loc>
-    <lastmod>2026-05-16</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/ear-physiognomy</loc>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-personality</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/eyebrow-physiognomy</loc>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-personality</loc>
-    <lastmod>2026-05-12</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/eyes-physiognomy</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-personality</loc>
-    <lastmod>2026-05-20</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/face-shape-reading</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-personality</loc>
-    <lastmod>2026-05-10</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/forehead-physiognomy</loc>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-personality</loc>
-    <lastmod>2026-05-11</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/jaw-physiognomy</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/mouth-physiognomy</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/nose-physiognomy</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/philtrum-reading</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/physiognomy-self-understanding</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/physiognomy/what-is-physiognomy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/cheongan-10gods</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/daeun-seun</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/gongmang-guide</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-personality</loc>
-    <lastmod>2026-05-13</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/learn/gyeokguk-basics</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-12-basics</loc>
+    <loc>https://korean-astrology-guide.pages.dev/learn/hapchung-guide</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/how-to-read-saju</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/ilgan-characteristics</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/jiji-12branches</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/oheng-balance</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/oheng-basics</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-career</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-health</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-love-reading</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-marriage</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-parents</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-relationship-pattern</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-structure</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-timing</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/saju-wealth</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/sibi-unseong</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/singnyak-gang</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/sinsal-basics</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-compatibility-caution</loc>
+    <loc>https://korean-astrology-guide.pages.dev/learn/sipseong-guide</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/ten-stems-personality</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/twelve-branches-personality</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/what-is-ilju</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/yin-yang-basics</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/learn/yongshin-guide</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/byungfire-love</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/cheongan-jiji-compatibility</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/zodiac-elements-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/compatibility-misconceptions</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/eulwood-love</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/gapwood-love</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/giearth-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/gyeonggold-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/gyesuwater-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/imwater-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/jeongfire-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/muearth-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/oheng-balance-compatibility</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/singold-love</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/compatibility/why-not-just-ilju</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dog-zodiac</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/bigyeop-love</loc>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dragon-zodiac</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/breakup-recovery-saju</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/goat-zodiac</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/gwanseong-women-love</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/horse-zodiac</loc>
-    <lastmod>2026-04-06</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/ilgan-gunghap</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/monkey-zodiac</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/ilgan-love</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/ox-zodiac</loc>
-    <lastmod>2026-04-11</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/ilgan-money-style</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/pig-zodiac</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rabbit-zodiac</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rat-zodiac</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rooster-zodiac</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/snake-zodiac</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/tiger-zodiac</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/saju-calculator</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/gunghap</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/tarot-reading</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream-search</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/tools</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/iljin</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
@@ -925,14 +1447,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/oheng-love-style</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/ilgan-love</loc>
-    <lastmod>2026-04-23</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/jaeseong-men-love</loc>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -949,164 +1465,38 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/column/ilgan-gunghap</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/yin-yang-basics</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/sibi-unseong</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/sinsal-basics</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/gongmang-guide</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/how-to-read-saju</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/tarot-daily-guidance</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/new-year-fortune-guide</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/dream-interpretation-practice</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/understanding-daeun-life-flow</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/fortune-guide/fortune-self-reflection-journal</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/hand-shape-types</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/hand-mounts-guide</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/palmistry/mercury-line-pinky</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/face-shape-reading</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/cheekbone-reading</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/physiognomy/philtrum-reading</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rat-love</loc>
+    <loc>https://korean-astrology-guide.pages.dev/column/obsession-saju</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/ox-love</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/tiger-love</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rabbit-love</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dragon-love</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/snake-love</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/horse-love</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/goat-love</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/monkey-love</loc>
+    <loc>https://korean-astrology-guide.pages.dev/column/oheng-love-style</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rooster-love</loc>
-    <lastmod>2026-04-22</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/column/saju-stress-type</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/column/siksang-love</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/column/tarot-spread-practice</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/column/zodiac-2026-second-half</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1117,98 +1507,140 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dog-zodiac</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dragon-love</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/dragon-zodiac</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/goat-love</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/goat-zodiac</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/horse-love</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/horse-zodiac</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/monkey-love</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/monkey-zodiac</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/ox-love</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/ox-zodiac</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/pig-love</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/pig-zodiac</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rabbit-love</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rabbit-zodiac</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rat-love</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rat-zodiac</loc>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rooster-love</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/rooster-zodiac</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/snake-love</loc>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/snake-zodiac</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-love</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/tiger-love</loc>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-love</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-love</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gapja</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulchuk</loc>
-    <lastmod>2026-01-02</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/zodiac-animal/tiger-zodiac</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1219,296 +1651,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongmyo</loc>
-    <lastmod>2026-01-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/mujin</loc>
-    <lastmod>2026-01-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gisa</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongo</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinmi</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/imsin</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeyu</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gabsul</loc>
-    <lastmod>2026-01-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulhae</loc>
-    <lastmod>2026-01-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://korean-astrology-guide.pages.dev/ilju/byeongja</loc>
     <lastmod>2026-01-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongchuk</loc>
-    <lastmod>2026-01-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/muin</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gimyo</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongjin</loc>
-    <lastmod>2026-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinsa</loc>
-    <lastmod>2026-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/imo</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyemi</loc>
-    <lastmod>2026-01-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gabsin</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulyu</loc>
-    <lastmod>2026-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongsul</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeonghae</loc>
-    <lastmod>2026-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/muja</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gichuk</loc>
-    <lastmod>2026-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongin</loc>
-    <lastmod>2026-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinmyo</loc>
-    <lastmod>2026-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/imjin</loc>
-    <lastmod>2026-01-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyesa</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gabo</loc>
-    <lastmod>2026-02-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulmi</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongsin</loc>
-    <lastmod>2026-02-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongyu</loc>
-    <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/musul</loc>
-    <lastmod>2026-02-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gihae</loc>
-    <lastmod>2026-02-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongja</loc>
-    <lastmod>2026-02-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinchuk</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/imin</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyemyo</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gabjin</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulsa</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongo</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongmi</loc>
-    <lastmod>2026-02-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/musin</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/giyu</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongsul</loc>
-    <lastmod>2026-02-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinhae</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/imja</loc>
-    <lastmod>2026-02-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyechuk</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gabin</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/eulmyo</loc>
-    <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1519,14 +1663,104 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongsa</loc>
-    <lastmod>2026-02-24</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongo</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/muo</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongsin</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/byeongsul</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulchuk</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulhae</loc>
+    <lastmod>2026-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulmi</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulmyo</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulsa</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/eulyu</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gabin</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gabjin</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gabo</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gabsin</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gabsul</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gapja</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gichuk</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gihae</loc>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1537,14 +1771,122 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gimyo</loc>
+    <lastmod>2026-01-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gisa</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/giyu</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyechuk</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyehae</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyemi</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyemyo</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongin</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongja</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongjin</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongo</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongsin</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/sinyu</loc>
-    <lastmod>2026-02-28</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeongsul</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyesa</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/gyeyu</loc>
+    <lastmod>2026-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/imin</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/imja</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/imjin</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/imo</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/imsin</loc>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1555,383 +1897,435 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/ilju/gyehae</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/flying-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongchuk</loc>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/ghost-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeonghae</loc>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/tiger-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongmi</loc>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/baby-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongmyo</loc>
+    <lastmod>2026-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/rain-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongsa</loc>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/dragon-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/jeongyu</loc>
+    <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/bird-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/muin</loc>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/fish-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/muja</loc>
+    <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/accident-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/mujin</loc>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/sun-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/muo</loc>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/fight-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/musin</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/mountain-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/musul</loc>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/weapon-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinchuk</loc>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/lost-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinhae</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/hospital-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinmi</loc>
+    <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/flower-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinmyo</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/car-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinsa</loc>
+    <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/bear-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/ilju/sinyu</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/school-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B6%81%ED%95%A9</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/transport-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%97%B0%EC%95%A0</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aries-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%82%AC%EC%A3%BC</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/taurus-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B4%80%EA%B3%84</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/gemini-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%AA%85%EB%A6%AC%ED%95%99</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/cancer-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9A%B4%EC%84%B8</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/leo-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%8B%AC%EB%A6%AC</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/virgo-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%BF%88%ED%95%B4%EB%AA%BD</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/libra-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9E%90%EA%B8%B0%EC%84%B1%EC%B0%B0</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/scorpio-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9E%90%EA%B8%B0%EC%9D%B4%ED%95%B4</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/sagittarius-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%84%B8%EC%9A%B4</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/capricorn-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%98%A4%ED%96%89</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/aquarius-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9D%BC%EC%A3%BC</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/zodiac/pisces-compatibility</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%ED%83%80%EB%A1%9C</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/knife-dream</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/blood-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%8C%80%EC%9A%B4</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/toilet-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%B6%88%EC%95%88</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/hair-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%BF%88%ED%95%B4%EC%84%9D</loc>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/spider-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%B3%80%ED%99%94</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/horse-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9E%AC%EB%AC%BC%EC%9A%B4</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/cow-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%A0%84%ED%86%B5</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/gold-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%AC%BC%EB%B3%91%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/celebrity-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%B3%84%EC%9E%90%EB%A6%AC%EA%B6%81%ED%95%A9</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/phone-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%A0%90%EC%84%B1%EC%88%A0</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/forest-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%B3%84%EC%9E%90%EB%A6%AC</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/rainbow-dream</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%84%B1%EA%B2%A9</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/mirror-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%96%91%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/cry-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B2%8C%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/stranger-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%97%BC%EC%86%8C%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/lightning-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%8C%8D%EB%91%A5%EC%9D%B4%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/rabbit-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%82%AC%EC%9E%90%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/earthquake-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%B2%9C%EC%B9%AD%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/bridge-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%AC%BC%EA%B3%A0%EA%B8%B0%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/dream/lottery-dream</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%82%AC%EC%88%98%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/gyeokguk-basics</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%A0%84%EA%B0%88%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/singnyak-gang</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%ED%99%A9%EC%86%8C%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-health</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%B2%98%EB%85%80%EC%9E%90%EB%A6%AC</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-career</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B8%B0%EC%B4%88</loc>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-wealth</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%A9%94%EC%9D%B4%EC%A0%80%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-marriage</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B7%A0%ED%98%95</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/ten-stems-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%86%90%EA%B8%88</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/twelve-branches-personality</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%88%98%EC%83%81%ED%95%99</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/oheng-balance</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B4%80%EC%83%81</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://korean-astrology-guide.pages.dev/learn/saju-parents</loc>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B4%80%EC%83%81%ED%95%99</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%B2%9C%EA%B0%84</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%A7%80%EC%A7%80</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9D%BC%EA%B0%84</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B2%B0%ED%98%BC</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9D%BC%EC%A7%80</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9D%B8%EC%84%B1</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%8B%AD%EC%84%B1</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EC%9E%AC%EC%84%B1</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EA%B4%80%EC%84%B1</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%9D%A0%EB%B3%84%EA%B6%81%ED%95%A9</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://korean-astrology-guide.pages.dev/tags/%EB%9D%A0%EB%B3%84%EC%9A%B4%EC%84%B8</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
