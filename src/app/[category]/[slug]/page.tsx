@@ -14,8 +14,10 @@ import ShareButton from "@/components/article/ShareButton";
 import TableOfContents from "@/components/article/TableOfContents";
 import ReadingProgress from "@/components/article/ReadingProgress";
 import JsonLd from "@/components/seo/JsonLd";
+import { autolinkChildren } from "@/lib/autolink";
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 
 interface Props {
   params: Promise<{ category: string; slug: string }>;
@@ -66,6 +68,14 @@ export default async function ArticlePage({ params }: Props) {
   const { default: Content } = await import(
     `@/content/${category}/${slug}.mdx`
   );
+
+  const currentPath = `/${category}/${slug}`;
+  const components = {
+    p: function P({ children }: { children?: ReactNode }) {
+      const { out } = autolinkChildren(children, currentPath);
+      return <p>{out}</p>;
+    },
+  };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
@@ -128,7 +138,7 @@ export default async function ArticlePage({ params }: Props) {
         <TableOfContents headings={headings} />
 
         <div className="prose prose-stone max-w-none prose-headings:font-semibold prose-headings:text-(--color-primary) prose-headings:scroll-mt-20 prose-p:text-(--color-primary) prose-p:leading-[1.85] prose-a:text-(--color-accent) prose-strong:text-(--color-primary)">
-          <Content />
+          <Content components={components} />
         </div>
 
         <PrevNextNav currentSlug={slug} posts={relatedPosts} />

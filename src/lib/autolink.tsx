@@ -24,26 +24,27 @@ const KEYWORDS: Keyword[] = [
   { term: "손금", href: "/palmistry/palmistry-basics" },
 ];
 
-function findFirstMatch(text: string): { idx: number; kw: Keyword } | null {
-  let best: { idx: number; kw: Keyword } | null = null;
-  for (const kw of KEYWORDS) {
-    const idx = text.indexOf(kw.term);
-    if (idx < 0) continue;
-    if (!best || idx < best.idx) best = { idx, kw };
-  }
-  return best;
-}
-
-export function autolinkChildren(children: ReactNode): {
-  out: ReactNode;
-  linked: boolean;
-} {
+export function autolinkChildren(
+  children: ReactNode,
+  currentPath?: string
+): { out: ReactNode; linked: boolean } {
   let linked = false;
+
+  function findEligible(text: string) {
+    let best: { idx: number; kw: Keyword } | null = null;
+    for (const kw of KEYWORDS) {
+      if (currentPath && kw.href === currentPath) continue;
+      const idx = text.indexOf(kw.term);
+      if (idx < 0) continue;
+      if (!best || idx < best.idx) best = { idx, kw };
+    }
+    return best;
+  }
 
   function transform(node: ReactNode): ReactNode {
     if (linked) return node;
     if (typeof node === "string") {
-      const match = findFirstMatch(node);
+      const match = findEligible(node);
       if (!match) return node;
       linked = true;
       const before = node.slice(0, match.idx);
