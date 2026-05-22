@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAllPosts, getFeaturedPosts, getPostsByCategory } from "@/lib/mdx";
 import { CATEGORIES } from "@/lib/categories";
 import ArticleCard from "@/components/article/ArticleCard";
+import TodayPick from "@/components/home/TodayPick";
 
 const TOOLS = [
   {
@@ -37,8 +38,10 @@ const TOOLS = [
 ];
 
 export default function HomePage() {
+  const allPosts = getAllPosts();
   const featured = getFeaturedPosts(5);
-  const recent = getAllPosts().slice(0, 6);
+  const recent = allPosts.slice(0, 6);
+  const todayPool = allPosts.slice(0, 80);
   const categoriesWithCount = Object.values(CATEGORIES).map((cat) => ({
     ...cat,
     count: getPostsByCategory(cat.slug).length,
@@ -93,6 +96,9 @@ export default function HomePage() {
       </section>
 
       <div className="max-w-6xl mx-auto px-4">
+
+        {/* ── 오늘의 추천 ────────────────────────────────────────── */}
+        <TodayPick posts={todayPool} count={3} />
 
         {/* ── 처음이시라면 ────────────────────────────────────────── */}
         {featured.length > 0 && (
