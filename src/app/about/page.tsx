@@ -3,11 +3,40 @@ import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/mdx";
 import { ALL_CATEGORY_SLUGS } from "@/lib/categories";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://korean-astrology-guide.pages.dev";
+
 export const metadata: Metadata = {
   title: "소개",
   description:
     "운세 참고서는 명리학·별자리·타로·꿈해몽을 교육적으로 해설하는 정보성 콘텐츠 사이트입니다. 운영 원칙, 콘텐츠 작성 절차, 참고 자료, 광고 공지, 정정 정책을 안내합니다.",
   alternates: { canonical: "/about" },
+};
+
+const OPERATOR_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: `${SITE_URL}/about`,
+  name: "운세 참고서 소개",
+  inLanguage: "ko-KR",
+  mainEntity: {
+    "@type": "Person",
+    name: "익현",
+    alternateName: "益軒",
+    description:
+      "명리학·서양 점성술·타로·꿈해몽 자료를 10년 이상 수집·정리해 온 학습자. 운세 참고서를 개인 운영합니다.",
+    knowsAbout: ["명리학", "사주", "서양 점성술", "타로", "꿈해몽", "관상", "손금"],
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "운세 참고서",
+    url: SITE_URL,
+    founder: {
+      "@type": "Person",
+      name: "익현",
+      alternateName: "益軒",
+    },
+  },
 };
 
 const TOOLS = [
@@ -33,6 +62,10 @@ export default function AboutPage() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(OPERATOR_JSONLD) }}
+      />
       <p
         className="text-xs font-semibold uppercase tracking-wider mb-2"
         style={{ color: "var(--color-accent)" }}
@@ -77,12 +110,29 @@ export default function AboutPage() {
           있도록 돕는 것이 운세 참고서의 역할입니다.
         </p>
 
-        <h2>사이트 운영</h2>
+        <h2>운영자 소개 — 익현(益軒)</h2>
         <p>
-          운세 참고서는 2026년에 개설된 비상업 개인 운영 정보 사이트입니다.
-          명리학·점성술·타로·꿈해몽 자료를 오랫동안 수집·정리해 온 운영자가
-          개인 학습 정리를 공개 자료로 다듬어 공유합니다. 글은 한 번 발행한
-          뒤에도 새로운 자료나 독자 피드백을 반영해 주기적으로 보강합니다.
+          운세 참고서는 필명 <strong>익현(益軒)</strong>이 운영합니다.{" "}
+          <em>익현</em>은 &ldquo;이로움(益)의 처마(軒)&rdquo;라는 뜻으로,
+          조선의 학자들이 자기 학습 공간에 붙이던 호(號)에서 차용한 이름입니다.
+          글을 읽는 사람에게 작은 그늘과 작은 이로움이 되었으면 한다는 뜻을
+          담았습니다.
+        </p>
+        <p>
+          명리학·서양 점성술·타로·꿈해몽 자료를 <strong>10년 이상</strong>{" "}
+          개인적으로 수집·비교·정리해 왔습니다. 특정 학파나 한 스승에게서
+          체계적으로 사사한 직업 명리학자는 아니며, 다양한 출처의 고전과 현대
+          해설서를 직접 대조하면서 공통점과 차이점을 정리해 온 학습자 관점입니다.
+          그래서 글의 강조점은 &ldquo;운명을 점쳐 드린다&rdquo;가 아니라,{" "}
+          &ldquo;같은 주제를 여러 전통이 어떻게 다르게 설명하는지&rdquo;를
+          비교 가능한 형태로 풀어내는 데 있습니다.
+        </p>
+        <p>
+          오랫동안 개인 노트로만 쌓아 두던 정리 자료를, 같은 주제를 찾는
+          누군가에게 작은 길잡이가 되었으면 하는 마음으로 2026년에 공개
+          웹사이트로 다듬어 시작했습니다. 운세 참고서는 비상업 개인 운영
+          정보 사이트이며, 익현 개인이 직접 글을 쓰고 도구를 만들고 정정·보강을
+          맡습니다.
         </p>
         <p>
           현재 {postCount}편 이상의 글을 {categoryCount}개 카테고리에 정리해 두었고,{" "}
