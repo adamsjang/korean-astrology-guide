@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { getPostsByCategory, getTopTagsForCategory } from "@/lib/mdx";
-import { getCategory, ALL_CATEGORY_SLUGS } from "@/lib/categories";
+import { getCategory, getRelatedCategories, ALL_CATEGORY_SLUGS } from "@/lib/categories";
 import PaginatedPostList from "@/components/article/PaginatedPostList";
+import RelatedCategories from "@/components/article/RelatedCategories";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -30,6 +31,7 @@ export default async function CategoryPage({ params }: Props) {
 
   const posts = getPostsByCategory(category);
   const topTags = getTopTagsForCategory(category, 8);
+  const relatedCategories = getRelatedCategories(category);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -89,6 +91,8 @@ export default async function CategoryPage({ params }: Props) {
       )}
 
       <PaginatedPostList posts={posts} pageSize={20} />
+
+      <RelatedCategories categories={relatedCategories} />
     </div>
   );
 }
