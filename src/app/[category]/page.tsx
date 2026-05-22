@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation";
 import { getPostsByCategory, getTopTagsForCategory } from "@/lib/mdx";
 import { getCategory, getRelatedCategories, ALL_CATEGORY_SLUGS } from "@/lib/categories";
+import { getLearnStages } from "@/lib/learn-path";
 import PaginatedPostList from "@/components/article/PaginatedPostList";
 import RelatedCategories from "@/components/article/RelatedCategories";
+import LearnPath from "@/components/article/LearnPath";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -32,6 +34,7 @@ export default async function CategoryPage({ params }: Props) {
   const posts = getPostsByCategory(category);
   const topTags = getTopTagsForCategory(category, 8);
   const relatedCategories = getRelatedCategories(category);
+  const learnStages = category === "learn" ? getLearnStages() : [];
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -69,6 +72,10 @@ export default async function CategoryPage({ params }: Props) {
         )}
       </div>
 
+      {category === "learn" && learnStages.length > 0 && (
+        <LearnPath stages={learnStages} />
+      )}
+
       {topTags.length > 0 && (
         <div className="mb-10">
           <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-3">
@@ -87,6 +94,17 @@ export default async function CategoryPage({ params }: Props) {
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {category === "learn" && (
+        <div className="mb-6 pt-10 border-t border-(--color-border)">
+          <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-2">
+            전체 목록 (최신순)
+          </p>
+          <p className="text-sm text-(--color-secondary)">
+            학습 경로 외에 최신순으로 모든 글을 살펴보고 싶다면 아래 목록을 이용하세요.
+          </p>
         </div>
       )}
 
