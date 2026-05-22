@@ -39,6 +39,7 @@ const STATIC_ROUTES = [
   { path: "/series/ilju", changefreq: "monthly", priority: "0.8" },
   { path: "/series/zodiac", changefreq: "monthly", priority: "0.8" },
   { path: "/series/tarot-major", changefreq: "monthly", priority: "0.8" },
+  { path: "/new-year", changefreq: "monthly", priority: "0.8" },
 ];
 
 const INDEXABLE_TAG_MIN = 3;

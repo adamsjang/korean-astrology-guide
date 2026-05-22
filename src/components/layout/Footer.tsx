@@ -55,6 +55,7 @@ export default function Footer() {
                 { href: "/series/ilju", label: "60갑자 일주 시리즈" },
                 { href: "/series/zodiac", label: "12별자리 시리즈" },
                 { href: "/series/tarot-major", label: "타로 메이저 22장 시리즈" },
+                { href: "/new-year", label: "신년 운세 길잡이" },
                 { href: "/feed.xml", label: "RSS 피드" },
                 { href: "/about", label: "소개" },
                 { href: "/contact", label: "문의" },
