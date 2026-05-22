@@ -36,6 +36,7 @@ const STATIC_ROUTES = [
   { path: "/tarot-reading", changefreq: "monthly", priority: "0.7" },
   { path: "/dream-search", changefreq: "monthly", priority: "0.7" },
   { path: "/tags", changefreq: "weekly", priority: "0.7" },
+  { path: "/series", changefreq: "monthly", priority: "0.7" },
   { path: "/series/ilju", changefreq: "monthly", priority: "0.8" },
   { path: "/series/zodiac", changefreq: "monthly", priority: "0.8" },
   { path: "/series/tarot-major", changefreq: "monthly", priority: "0.8" },
