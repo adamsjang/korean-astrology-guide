@@ -28,11 +28,13 @@ export default function DreamSearch({ posts }: Props) {
         <input
           type="search"
           placeholder="꿈 키워드 검색 (예: 뱀, 불, 결혼…)"
+          aria-label="꿈 키워드 검색"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="w-full px-4 py-3 pl-10 rounded-lg border border-(--color-border) bg-(--color-surface) text-(--color-primary) placeholder:text-(--color-secondary) focus:outline-none focus:border-(--color-accent) text-sm"
         />
         <svg
+          aria-hidden="true"
           className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-(--color-secondary)"
           fill="none" stroke="currentColor" viewBox="0 0 24 24"
         >
@@ -40,11 +42,9 @@ export default function DreamSearch({ posts }: Props) {
         </svg>
       </div>
 
-      {query && (
-        <p className="text-sm text-(--color-secondary) mb-4">
-          &quot;{query}&quot; 검색 결과 {results.length}개
-        </p>
-      )}
+      <p role="status" aria-live="polite" className={query ? "text-sm text-(--color-secondary) mb-4" : "sr-only"}>
+        {query ? `"${query}" 검색 결과 ${results.length}개` : `${results.length}개의 꿈 키워드`}
+      </p>
 
       {results.length === 0 ? (
         <div className="text-center py-16 text-(--color-secondary)">
@@ -62,7 +62,11 @@ export default function DreamSearch({ posts }: Props) {
               {post.image && (
                 <img
                   src={post.image}
-                  alt={post.title}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  width={64}
+                  height={64}
                   className="w-16 h-16 object-cover rounded flex-shrink-0"
                 />
               )}

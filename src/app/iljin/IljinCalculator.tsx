@@ -93,11 +93,12 @@ export default function IljinCalculator() {
 
       {/* 날짜 입력 */}
       <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-5 mb-4">
-        <p className="text-xs text-(--color-secondary) mb-2">날짜 선택</p>
+        <p id="iljin-date-label" className="text-xs text-(--color-secondary) mb-2">날짜 선택</p>
         <div className="flex items-center gap-3">
           <button
             type="button"
             onClick={() => moveDay(-1)}
+            aria-label="어제 날짜로 이동"
             className="px-3 py-2 rounded-lg border border-(--color-border) text-sm text-(--color-secondary) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
           >
             ← 어제
@@ -108,11 +109,13 @@ export default function IljinCalculator() {
             min="1900-01-01"
             max="2050-12-31"
             onChange={(e) => setDateStr(e.target.value)}
+            aria-labelledby="iljin-date-label"
             className="flex-1 px-3 py-2 rounded-lg border border-(--color-border) text-sm text-(--color-primary) bg-(--color-base) focus:outline-none focus:border-(--color-accent)"
           />
           <button
             type="button"
             onClick={() => moveDay(1)}
+            aria-label="내일 날짜로 이동"
             className="px-3 py-2 rounded-lg border border-(--color-border) text-sm text-(--color-secondary) hover:border-(--color-accent) hover:text-(--color-accent) transition-colors"
           >
             내일 →
@@ -127,7 +130,7 @@ export default function IljinCalculator() {
         </button>
       </div>
 
-      {calcError && <p className="text-sm text-red-600 mb-4">{calcError}</p>}
+      {calcError && <p role="alert" className="text-sm text-red-600 mb-4">{calcError}</p>}
 
       {result && (
         <div className="space-y-4">

@@ -71,10 +71,11 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <p className="text-sm font-semibold text-(--color-primary)">{label}</p>
       )}
 
-      <div className="flex gap-1 p-1 rounded-lg bg-(--color-border) w-fit">
+      <div role="group" aria-label={label ? `${label} 달력 종류` : "달력 종류"} className="flex gap-1 p-1 rounded-lg bg-(--color-border) w-fit">
         <button
           type="button"
           onClick={() => setCalendar("solar")}
+          aria-pressed={!isLunar}
           className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
             !isLunar
               ? "bg-(--color-surface) text-(--color-primary) shadow-sm"
@@ -86,6 +87,7 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <button
           type="button"
           onClick={() => setCalendar("lunar")}
+          aria-pressed={isLunar}
           className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
             isLunar
               ? "bg-(--color-surface) text-(--color-primary) shadow-sm"
@@ -100,6 +102,7 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <select
           value={value.year}
           onChange={(e) => setYear(Number(e.target.value))}
+          aria-label={label ? `${label} 출생 연도` : "출생 연도"}
           className="flex-1 px-3 py-2 rounded-lg border border-(--color-border) bg-(--color-surface) text-(--color-primary) text-sm focus:outline-none focus:border-(--color-accent)"
         >
           {years.map((y) => (
@@ -110,6 +113,7 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <select
           value={value.month}
           onChange={(e) => setMonth(Number(e.target.value))}
+          aria-label={label ? `${label} 출생 월` : "출생 월"}
           className="w-20 px-3 py-2 rounded-lg border border-(--color-border) bg-(--color-surface) text-(--color-primary) text-sm focus:outline-none focus:border-(--color-accent)"
         >
           {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
@@ -120,6 +124,7 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <select
           value={value.day}
           onChange={(e) => setDay(Number(e.target.value))}
+          aria-label={label ? `${label} 출생 일` : "출생 일"}
           className="w-20 px-3 py-2 rounded-lg border border-(--color-border) bg-(--color-surface) text-(--color-primary) text-sm focus:outline-none focus:border-(--color-accent)"
         >
           {days.map((d) => (
@@ -144,6 +149,7 @@ export default function DateInput({ value, onChange, showHour = true, label }: D
         <select
           value={getHourIdx()}
           onChange={(e) => setHour(Number(e.target.value))}
+          aria-label={label ? `${label} 출생 시간` : "출생 시간"}
           className="w-full px-3 py-2 rounded-lg border border-(--color-border) bg-(--color-surface) text-(--color-primary) text-sm focus:outline-none focus:border-(--color-accent)"
         >
           {HOUR_OPTIONS.map((opt, idx) => (

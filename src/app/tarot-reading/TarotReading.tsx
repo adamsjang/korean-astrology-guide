@@ -128,17 +128,24 @@ export default function TarotReading() {
 
       {/* 카드 뒷면 */}
       {theme !== null && !drawn && !drawing && (
-        <div
-          className="mx-auto mb-10 w-40 h-64 rounded-xl border-2 border-(--color-border) bg-(--color-surface) flex items-center justify-center cursor-pointer hover:border-(--color-accent) transition-colors"
+        <button
+          type="button"
           onClick={draw}
+          aria-label="카드 뽑기"
+          className="mx-auto mb-10 w-40 h-64 rounded-xl border-2 border-(--color-border) bg-(--color-surface) flex items-center justify-center cursor-pointer hover:border-(--color-accent) transition-colors focus:outline-none focus-visible:border-(--color-accent)"
         >
-          <span className="text-4xl select-none">✦</span>
-        </div>
+          <span aria-hidden="true" className="text-4xl select-none">✦</span>
+        </button>
       )}
 
       {drawing && (
-        <div className="mx-auto mb-10 w-40 h-64 rounded-xl border-2 border-(--color-border) bg-(--color-surface) flex items-center justify-center animate-pulse">
-          <span className="text-4xl select-none">✦</span>
+        <div
+          role="status"
+          aria-live="polite"
+          aria-label="카드 뽑는 중"
+          className="mx-auto mb-10 w-40 h-64 rounded-xl border-2 border-(--color-border) bg-(--color-surface) flex items-center justify-center animate-pulse"
+        >
+          <span aria-hidden="true" className="text-4xl select-none">✦</span>
         </div>
       )}
 
@@ -152,7 +159,7 @@ export default function TarotReading() {
             className="mx-auto w-40 overflow-hidden rounded-xl border border-(--color-border) shadow-sm mb-5"
             style={drawn.orientation === "역방향" ? { transform: "rotate(180deg)" } : {}}
           >
-            <img src={drawn.card.image} alt={drawn.card.name} className="w-full" />
+            <img src={drawn.card.image} alt={drawn.card.name} decoding="async" className="w-full" />
           </div>
 
           <div className="flex items-center justify-center gap-2 mb-1">

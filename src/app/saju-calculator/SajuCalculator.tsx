@@ -106,13 +106,14 @@ export default function SajuCalculator() {
       <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-5 mb-4 space-y-4">
         <DateInput value={input} onChange={setInput} showHour={true} />
         <div>
-          <p className="text-xs text-(--color-secondary) mb-2">성별 (대운 계산용)</p>
-          <div className="flex gap-2">
+          <p id="gender-label" className="text-xs text-(--color-secondary) mb-2">성별 (대운 계산용)</p>
+          <div role="group" aria-labelledby="gender-label" className="flex gap-2">
             {(["male", "female"] as Gender[]).map((g) => (
               <button
                 key={g}
                 type="button"
                 onClick={() => setGender(g)}
+                aria-pressed={gender === g}
                 className="flex-1 py-2 rounded-lg text-sm font-semibold border transition-colors"
                 style={{
                   borderColor: gender === g ? "var(--color-accent)" : "var(--color-border)",
@@ -130,7 +131,7 @@ export default function SajuCalculator() {
       </div>
 
       {error && (
-        <p className="text-sm text-red-600 mb-4 px-1">{error}</p>
+        <p role="alert" className="text-sm text-red-600 mb-4 px-1">{error}</p>
       )}
 
       <button
@@ -241,13 +242,15 @@ export default function SajuCalculator() {
             <button
               type="button"
               onClick={() => setGuideOpen((o) => !o)}
+              aria-expanded={guideOpen}
+              aria-controls="saju-guide-panel"
               className="w-full flex items-center justify-between px-5 py-4 text-sm font-semibold text-(--color-primary) hover:bg-(--color-base) transition-colors"
             >
               <span>사주팔자 읽는 법</span>
-              <span className="text-(--color-secondary)">{guideOpen ? "▲" : "▼"}</span>
+              <span aria-hidden="true" className="text-(--color-secondary)">{guideOpen ? "▲" : "▼"}</span>
             </button>
             {guideOpen && (
-              <div className="px-5 pb-5 text-sm text-(--color-secondary) leading-relaxed border-t border-(--color-border) pt-4">
+              <div id="saju-guide-panel" className="px-5 pb-5 text-sm text-(--color-secondary) leading-relaxed border-t border-(--color-border) pt-4">
                 일주(나)의 천간이 나 자신을 나타냅니다. 천간은 드러나는 모습, 지지는 내면의 환경을 상징합니다. 사주 해석은 8자의 관계 전체를 보는 것으로, 개별 글자만으로 판단하지 않습니다.
               </div>
             )}
