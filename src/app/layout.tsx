@@ -34,6 +34,12 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "운세 참고서",
+    description:
+      "명리학·별자리·타로·꿈해몽을 교육적으로 해설하는 정보성 콘텐츠 사이트입니다.",
+  },
 };
 
 export default function RootLayout({
