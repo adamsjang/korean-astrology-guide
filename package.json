@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "generate:feeds": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs",
+    "suggest:images": "node scripts/suggest-category-images.mjs",
     "deploy": "npm run generate:feeds && next build && wrangler pages deploy out --branch=main"
   },
   "dependencies": {

@@ -9,17 +9,18 @@ interface Props {
 
 export default function ArticleCard({ post }: Props) {
   const cat = getCategory(post.category);
-  const hasImage = Boolean(post.image);
+  const imgUrl = post.image ?? cat?.image;
+  const hasImage = Boolean(imgUrl);
 
   return (
     <Link
       href={`/${post.category}/${post.slug}`}
       className="group block bg-(--color-surface) border border-(--color-border) rounded overflow-hidden hover:border-(--color-accent) transition-colors"
     >
-      {hasImage && (
+      {hasImage && imgUrl && (
         <div className="relative aspect-[16/9] bg-(--color-base) overflow-hidden">
           <Image
-            src={post.image as string}
+            src={imgUrl}
             alt={post.title}
             fill
             sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"

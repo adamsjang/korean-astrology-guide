@@ -6,6 +6,50 @@ import { posthog } from "@/lib/posthog";
 
 const SCROLL_DEPTHS = [25, 50, 75, 100] as const;
 
+const TOOL_PATHS = new Set([
+  "/saju-calculator",
+  "/gunghap",
+  "/tarot-reading",
+  "/dream-search",
+  "/iljin",
+  "/tools",
+]);
+const SERIES_PREFIX = "/series/";
+const CATEGORY_SLUGS = new Set([
+  "fortune-guide",
+  "dream",
+  "zodiac",
+  "tarot",
+  "palmistry",
+  "physiognomy",
+  "learn",
+  "compatibility",
+  "column",
+  "zodiac-animal",
+  "ilju",
+]);
+
+function classifyPath(pathname: string) {
+  if (pathname === "/") return { type: "home" as const };
+  if (TOOL_PATHS.has(pathname)) return { type: "tool" as const, tool: pathname.slice(1) };
+  if (pathname.startsWith(SERIES_PREFIX)) {
+    return { type: "series" as const, series: pathname.slice(SERIES_PREFIX.length) };
+  }
+  if (pathname === "/tags") return { type: "tags_index" as const };
+  if (pathname.startsWith("/tags/")) {
+    return { type: "tag" as const, tag: decodeURIComponent(pathname.slice("/tags/".length)) };
+  }
+  if (pathname === "/search") return { type: "search" as const };
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length === 1 && CATEGORY_SLUGS.has(parts[0])) {
+    return { type: "category" as const, category: parts[0] };
+  }
+  if (parts.length === 2 && CATEGORY_SLUGS.has(parts[0])) {
+    return { type: "article" as const, category: parts[0], slug: parts[1] };
+  }
+  return { type: "other" as const };
+}
+
 export default function AnalyticsTracker() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -17,7 +61,25 @@ export default function AnalyticsTracker() {
 
     const query = searchParams?.toString();
     const url = query ? `${pathname}?${query}` : pathname;
-    posthog.capture("$pageview", { $current_url: window.location.href, $pathname: pathname });
+    const route = classifyPath(pathname);
+    posthog.capture("$pageview", {
+      $current_url: window.location.href,
+      $pathname: pathname,
+      route_type: route.type,
+      ...("category" in route ? { category: route.category } : {}),
+      ...("slug" in route ? { slug: route.slug } : {}),
+      ...("series" in route ? { series: route.series } : {}),
+      ...("tag" in route ? { tag: route.tag } : {}),
+      ...("tool" in route ? { tool: route.tool } : {}),
+    });
+
+    if (route.type === "article") {
+      posthog.capture("article_view", {
+        path: url,
+        category: route.category,
+        slug: route.slug,
+      });
+    }
 
     reachedDepths.current = new Set();
 
@@ -32,6 +94,13 @@ export default function AnalyticsTracker() {
         if (pct >= d && !reachedDepths.current.has(d)) {
           reachedDepths.current.add(d);
           posthog.capture("scroll_depth_reached", { depth_percent: d, path: url });
+          if (d === 100 && route.type === "article") {
+            posthog.capture("article_read", {
+              path: url,
+              category: "category" in route ? route.category : undefined,
+              slug: "slug" in route ? route.slug : undefined,
+            });
+          }
         }
       }
     };

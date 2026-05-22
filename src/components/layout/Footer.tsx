@@ -53,6 +53,8 @@ export default function Footer() {
                 { href: "/search", label: "검색" },
                 { href: "/tags", label: "태그 인덱스" },
                 { href: "/series/ilju", label: "60갑자 일주 시리즈" },
+                { href: "/series/zodiac", label: "12별자리 시리즈" },
+                { href: "/series/tarot-major", label: "타로 메이저 22장 시리즈" },
                 { href: "/feed.xml", label: "RSS 피드" },
                 { href: "/about", label: "소개" },
                 { href: "/contact", label: "문의" },

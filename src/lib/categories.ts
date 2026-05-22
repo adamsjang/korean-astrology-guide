@@ -4,6 +4,8 @@ export interface Category {
   description: string;
   intro: string;
   color: string;
+  /** Default image URL used by ArticleCard when a post has no `image` of its own. */
+  image?: string;
 }
 
 export const CATEGORIES: Record<string, Category> = {
