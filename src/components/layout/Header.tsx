@@ -53,7 +53,9 @@ export default function Header() {
         <button
           className="md:hidden p-2 text-(--color-secondary)"
           onClick={() => setMenuOpen((v) => !v)}
-          aria-label="메뉴 열기"
+          aria-label={menuOpen ? "메뉴 닫기" : "메뉴 열기"}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-nav"
         >
           <span className="block w-5 h-0.5 bg-current mb-1" />
           <span className="block w-5 h-0.5 bg-current mb-1" />
@@ -62,7 +64,7 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden border-t border-(--color-border) bg-(--color-surface)">
+        <div id="mobile-nav" className="md:hidden border-t border-(--color-border) bg-(--color-surface)">
           <Link
             href="/search"
             className="flex items-center gap-2 px-4 py-2.5 text-sm text-(--color-secondary) hover:bg-(--color-base) hover:text-(--color-primary)"

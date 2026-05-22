@@ -60,9 +60,10 @@ export default function RootLayout({
         )}
       </head>
       <body className="min-h-full flex flex-col">
+        <a href="#main" className="skip-link">본문으로 건너뛰기</a>
         <PostHogProvider>
           <Header />
-          <main className="flex-1">{children}</main>
+          <main id="main" className="flex-1">{children}</main>
           <Footer />
         </PostHogProvider>
       </body>

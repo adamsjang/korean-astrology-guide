@@ -44,7 +44,7 @@ export default function ArticleCard({ post }: Props) {
           {post.description}
         </p>
         <div className="flex items-center gap-3 text-xs text-(--color-secondary)">
-          <time>{post.publishedAt}</time>
+          <time dateTime={post.publishedAt}>{post.publishedAt}</time>
           <span>·</span>
           <span>{post.readingTime} 읽기</span>
         </div>

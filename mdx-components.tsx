@@ -1,5 +1,5 @@
 import type { MDXComponents } from "mdx/types";
-import type { ReactNode } from "react";
+import type { ImgHTMLAttributes, ReactNode } from "react";
 import { slugify, extractText } from "@/lib/slugify";
 import { autolinkChildren } from "@/lib/autolink";
 
@@ -16,10 +16,17 @@ function Paragraph({ children }: { children?: ReactNode }) {
   return <p>{out}</p>;
 }
 
+function Img(props: ImgHTMLAttributes<HTMLImageElement>) {
+  const { alt = "", decoding, ...rest } = props;
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img alt={alt} decoding={decoding ?? "async"} {...rest} />;
+}
+
 export function useMDXComponents(): MDXComponents {
   return {
     h2: makeHeading("h2"),
     h3: makeHeading("h3"),
     p: Paragraph,
+    img: Img,
   };
 }

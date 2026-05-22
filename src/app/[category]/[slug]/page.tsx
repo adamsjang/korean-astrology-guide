@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }: Props) {
           </p>
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-3 text-sm text-(--color-secondary)">
-              <time>{post.publishedAt}</time>
+              <time dateTime={post.publishedAt}>{post.publishedAt}</time>
               <span>·</span>
               <span>{post.readingTime} 읽기</span>
             </div>
