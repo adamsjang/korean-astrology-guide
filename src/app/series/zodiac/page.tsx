@@ -1,5 +1,9 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import CollectionJsonLd from "@/components/seo/CollectionJsonLd";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 const ZODIACS = [
   { slug: "aries", ko: "양자리", symbol: "♈", element: "불", date: "3.21–4.19", color: "#c0392b" },
@@ -23,9 +27,25 @@ export const metadata: Metadata = {
   alternates: { canonical: "/series/zodiac" },
 };
 
+function buildZodiacItems() {
+  const items: { name: string; url: string }[] = [];
+  for (const z of ZODIACS) {
+    items.push({ name: `${z.ko} 성격 가이드`, url: `${SITE_URL}/zodiac/${z.slug}-personality` });
+    items.push({ name: `${z.ko} 연애 스타일`, url: `${SITE_URL}/zodiac/${z.slug}-love` });
+    items.push({ name: `${z.ko} 궁합 가이드`, url: `${SITE_URL}/zodiac/${z.slug}-compatibility` });
+  }
+  return items;
+}
+
 export default function ZodiacSeriesPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <CollectionJsonLd
+        name="12별자리 시리즈"
+        description="서양 점성술 12별자리(양자리~물고기자리)의 성격·연애·궁합 가이드."
+        url={`${SITE_URL}/series/zodiac`}
+        items={buildZodiacItems()}
+      />
       <header className="mb-10">
         <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-2">
           시리즈

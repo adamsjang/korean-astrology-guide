@@ -1,5 +1,9 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import CollectionJsonLd from "@/components/seo/CollectionJsonLd";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 const MAJOR_ARCANA = [
   { num: 0, slug: "fool-card", ko: "바보", en: "The Fool" },
@@ -34,8 +38,19 @@ export const metadata: Metadata = {
 };
 
 export default function TarotMajorSeriesPage() {
+  const items = MAJOR_ARCANA.map((c) => ({
+    name: `${String(c.num).padStart(2, "0")}. ${c.ko}`,
+    url: `${SITE_URL}/tarot/${c.slug}`,
+  }));
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <CollectionJsonLd
+        name="타로 메이저 아르카나 22장 시리즈"
+        description="0번 바보부터 21번 세계까지, 메이저 아르카나 22장 가이드."
+        url={`${SITE_URL}/series/tarot-major`}
+        items={items}
+      />
       <header className="mb-10">
         <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-2">
           시리즈

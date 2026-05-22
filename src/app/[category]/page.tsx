@@ -5,8 +5,12 @@ import { getLearnStages } from "@/lib/learn-path";
 import PaginatedPostList from "@/components/article/PaginatedPostList";
 import RelatedCategories from "@/components/article/RelatedCategories";
 import LearnPath from "@/components/article/LearnPath";
+import CollectionJsonLd from "@/components/seo/CollectionJsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 interface Props {
   params: Promise<{ category: string }>;
@@ -36,8 +40,20 @@ export default async function CategoryPage({ params }: Props) {
   const relatedCategories = getRelatedCategories(category);
   const learnStages = category === "learn" ? getLearnStages() : [];
 
+  const collectionItems = posts.slice(0, 50).map((p) => ({
+    name: p.title,
+    url: `${SITE_URL}/${p.category}/${p.slug}`,
+  }));
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <CollectionJsonLd
+        name={cat.title}
+        description={cat.description}
+        url={`${SITE_URL}/${cat.slug}`}
+        items={collectionItems}
+        itemListOrder="Descending"
+      />
       <div className="mb-10">
         <p
           className="text-xs font-semibold uppercase tracking-wider mb-2"

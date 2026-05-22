@@ -1,6 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getPostsByCategory } from "@/lib/mdx";
+import CollectionJsonLd from "@/components/seo/CollectionJsonLd";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 const TITLE = "기획 시리즈 모음 — 일주·별자리·타로 메이저 아르카나";
 const DESCRIPTION =
@@ -72,6 +76,12 @@ export default function SeriesIndexPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <CollectionJsonLd
+        name={TITLE}
+        description={DESCRIPTION}
+        url={`${SITE_URL}/series`}
+        items={cards.map((c) => ({ name: c.label, url: `${SITE_URL}${c.href}` }))}
+      />
       <header className="mb-10">
         <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-2">
           기획 시리즈

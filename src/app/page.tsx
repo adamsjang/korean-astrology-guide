@@ -3,6 +3,10 @@ import { getAllPosts, getFeaturedPosts, getPostsByCategory } from "@/lib/mdx";
 import { CATEGORIES } from "@/lib/categories";
 import ArticleCard from "@/components/article/ArticleCard";
 import TodayPick from "@/components/home/TodayPick";
+import WebSiteJsonLd from "@/components/seo/WebSiteJsonLd";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 const TOOLS = [
   {
@@ -50,6 +54,7 @@ export default function HomePage() {
 
   return (
     <>
+      <WebSiteJsonLd siteUrl={SITE_URL} />
       {/* ── 히어로 ─────────────────────────────────────────────── */}
       <section
         className="border-b border-(--color-border)"

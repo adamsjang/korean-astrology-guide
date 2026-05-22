@@ -1,6 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getIljuSlug } from "@/lib/saju/ilju-slugs";
+import CollectionJsonLd from "@/components/seo/CollectionJsonLd";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://korean-astrology-guide.pages.dev";
 
 const STEMS_KR = ["갑", "을", "병", "정", "무", "기", "경", "신", "임", "계"];
 const STEMS_H = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"];
@@ -59,9 +63,31 @@ function buildIljuList(stemIdx: number) {
   return items;
 }
 
+function buildAllIljuItems() {
+  const items: { name: string; url: string }[] = [];
+  for (let si = 0; si < 10; si++) {
+    for (let bi = 0; bi < 12; bi++) {
+      const slug = getIljuSlug(si, bi);
+      if (!slug) continue;
+      items.push({
+        name: `${STEMS_KR[si]}${BRANCHES_KR[bi]} 일주`,
+        url: `${SITE_URL}/ilju/${slug}`,
+      });
+    }
+  }
+  return items;
+}
+
 export default function IljuSeriesPage() {
+  const allItems = buildAllIljuItems();
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <CollectionJsonLd
+        name="60갑자 일주 시리즈"
+        description="갑자에서 계해까지 60갑자 일주를 천간 10 × 지지 6으로 한 페이지에서 탐색."
+        url={`${SITE_URL}/series/ilju`}
+        items={allItems}
+      />
       <header className="mb-12">
         <p className="text-xs font-semibold uppercase tracking-wider text-(--color-accent) mb-2">
           시리즈
