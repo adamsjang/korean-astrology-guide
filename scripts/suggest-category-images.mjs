@@ -12,12 +12,12 @@
  */
 
 const KEYWORD_MAP = {
-  "fortune-guide": ["korean fortune telling", "taegeuk", "yin yang circle"],
-  column: ["yin yang", "asian calligraphy heart", "taoist symbol"],
-  compatibility: ["yin yang harmony", "couple silhouette asian", "balance scale yin"],
-  ilju: ["korean calligraphy 60", "cheongan jiji", "asian seal stamp"],
-  learn: ["korean astrology chart", "saju paljaja", "myeongri chart"],
-  zodiac: ["zodiac wheel", "celestial sphere", "horoscope chart"],
+  "fortune-guide": ["taegeuk korea", "taegeuk symbol", "korean folk painting"],
+  column: ["yin yang symbol", "wuxing diagram", "five phases chinese"],
+  compatibility: ["bagua diagram", "wuxing five elements", "yi jing hexagram"],
+  ilju: ["sexagenary cycle", "ganzhi chinese", "chinese calendar wheel"],
+  learn: ["bagua trigrams", "i ching diagram", "korean dancheong pattern"],
+  zodiac: ["zodiac wheel", "horoscope wheel", "astrological chart"],
 };
 
 async function searchCommons(query) {

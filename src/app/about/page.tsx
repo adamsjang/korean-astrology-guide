@@ -164,6 +164,19 @@ export default function AboutPage() {
             수상학(palmistry)의 기본 분류 체계.
           </li>
         </ul>
+        <p className="text-sm text-(--color-secondary)">
+          카테고리 페이지 대표 이미지(태극·단청·64괘·갑골 60갑자 표·점성술 휠 등)는{" "}
+          <a
+            href="https://commons.wikimedia.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-(--color-accent)"
+          >
+            Wikimedia Commons
+          </a>
+          의 퍼블릭 도메인 및 CC 라이선스 자료를 사용합니다. 각 이미지의
+          원본 페이지에서 저작자·라이선스 상세를 확인할 수 있습니다.
+        </p>
 
         <h2>제공하는 도구</h2>
         <p>

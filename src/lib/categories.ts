@@ -17,6 +17,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "운세를 현명하게 활용하는 방법",
     intro: "사주·타로·꿈해몽 등 다양한 운세 도구를 처음 접하는 분들을 위한 실용 가이드입니다. 운세 결과를 맹신하지 않고 자기 이해의 도구로 활용하는 방법, 좋은 상담을 고르는 기준, 운세를 현명하게 대하는 관점을 다룹니다. 운세는 정해진 운명이 아닌 자신을 돌아보는 하나의 참고 자료입니다.",
     color: "#8B6914",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Taegeuk_in_Naju_Hyanggyo.jpg/1280px-Taegeuk_in_Naju_Hyanggyo.jpg",
     related: ["learn", "dream", "tarot"],
   },
   dream: {
@@ -33,6 +34,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "별자리와 점성술 기초",
     intro: "서양 점성술의 12별자리(양자리~물고기자리)를 교육적으로 소개합니다. 각 별자리의 원소·지배 행성·성격 특성부터 연애 스타일, 잘 맞는 별자리 궁합까지 다룹니다. 별자리 해석은 자기 이해를 위한 참고 관점으로 활용할 때 가장 유익합니다.",
     color: "#1B3A6B",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Astrology_Horoscope_Wheel_Chart.jpg",
     related: ["zodiac-animal", "tarot", "fortune-guide"],
   },
   tarot: {
@@ -65,6 +67,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "사주와 명리학의 기본 개념",
     intro: "사주와 명리학을 처음 공부하는 분들을 위한 기초 개념 시리즈입니다. 음양·오행부터 천간·지지, 사주팔자 구조, 십성·대운·용신까지 단계적으로 설명합니다. 기초 이론을 갖추면 사주 계산 결과를 스스로 이해하고 비판적으로 활용할 수 있습니다.",
     color: "#2C4A1E",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Korea-Andong-Gwangheungsa-Dancheong-04.jpg",
     related: ["ilju", "compatibility", "column"],
   },
   compatibility: {
@@ -73,6 +76,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "사주 궁합을 보는 기준과 방법",
     intro: "명리학에서 두 사람의 사주를 비교해 관계의 특성을 파악하는 궁합 해석법을 소개합니다. 일간 오행 관계, 일지 합충, 오행 분포 비교 등 궁합을 보는 다양한 기준을 설명합니다. 궁합은 관계를 단정 짓는 판정이 아니라 두 사람의 에너지 방향을 이해하는 참고 자료입니다.",
     color: "#4A2C6E",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/UCB_Yijing_Hexagram_Symbols.png/1280px-UCB_Yijing_Hexagram_Symbols.png",
     related: ["learn", "column", "zodiac-animal"],
   },
   column: {
@@ -81,6 +85,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "명리학으로 보는 관계 이야기",
     intro: "명리학 십성과 오행을 활용해 연애와 인간관계의 패턴을 분석하는 칼럼 시리즈입니다. 비겁·식상·재성·관성·인성 등 십성별 연애 특징부터 일간별 성향, 결혼 타이밍까지 다룹니다. 사주를 통해 나와 상대의 관계 패턴을 더 입체적으로 이해할 수 있습니다.",
     color: "#7A3D2A",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Five_Phases_and_Four_Seasons_Calendar.png",
     related: ["compatibility", "ilju", "learn"],
   },
   "zodiac-animal": {
@@ -97,6 +102,7 @@ export const CATEGORIES: Record<string, Category> = {
     description: "60갑자 일주별 성격·연애·직업 특징",
     intro: "60갑자의 일주(日柱)별 성격 특징과 기질을 명리학 관점에서 해설합니다. 사주에서 나를 나타내는 일주는 천간(天干)과 지지(地支)의 조합으로 이루어지며, 각 조합은 고유한 에너지와 기질을 나타냅니다. 자신의 일주를 찾아 기질과 특성을 이해해 보세요.",
     color: "#4A5568",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Heji_37986_Ganzhi_table_%28cropped%29.jpg",
     related: ["learn", "column", "zodiac-animal"],
   },
 };
